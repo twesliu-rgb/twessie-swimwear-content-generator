@@ -1,0 +1,58 @@
+{
+  "brand_name": "Twessie Premium Swimwear",
+  "aesthetic_standard": "Independent Magazine Minimalism",
+  "tone": "ENTP Sharp, Rebellious Elegance, Zero-Fluff",
+  
+  "visual_identity": {
+    "primary_colors": ["Stone Gray", "Chalk White", "Obsidian Black"],
+    "secondary_colors": ["Olive Drab", "Burnt Terracotta"],
+    "forbidden_colors": ["Hot Pink", "Electric Blue", "Neon Purple", "Bright Red"],
+    "color_saturation": "low",
+    "color_philosophy": "Muted, naturalistic, Nordic meets Mediterranean"
+  },
+  
+  "fabric_library": [
+    {
+      "id": "fabric_001",
+      "name_cn": "微褶皱高弹肌理",
+      "name_en": "Crinkled Seersucker",
+      "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+      "texture_quality": "micro-textured, sculptural",
+      "color_pairings": ["Stone Gray", "Chalk White"]
+    },
+    {
+      "id": "fabric_002",
+      "name_cn": "哑光复古法式针织",
+      "name_en": "Matte Ribbed Knit",
+      "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+      "texture_quality": "matte, dense, magazine-grade",
+      "color_pairings": ["Olive Drab", "Burnt Terracotta"]
+    },
+    {
+      "id": "fabric_003",
+      "name_cn": "可持续再生尼龙哑光缎面",
+      "name_en": "Econyl Sleek Satin",
+      "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+      "texture_quality": "second-skin smooth, invisible seams",
+      "color_pairings": ["Obsidian Black"]
+    }
+  ],
+  
+  "midjourney_base_framework": {
+    "lighting": ["natural cinematic lighting", "overcast Nordic sea light", "golden hour warm sunlight", "cold northern light"],
+    "mood": ["detached elegance", "rebellious intelligence", "minimalist luxury", "editorial precision"],
+    "setting": ["raw concrete wall", "wooden bench in South France", "Nordic beach backdrop", "sunlit terracotta courtyard"],
+    "forbidden_words": ["sexy", "hot", "revealing", "attention-grabbing", "glittery", "colorful"],
+    "required_elements": ["macro texture detail", "premium magazine style", "crisp detail", "minimalist aesthetics"]
+  },
+  
+  "slogan_parameters": {
+    "tone_keywords": ["independent", "intelligent", "rebellious", "minimalist", "sharp", "understated", "refined"],
+    "forbidden_words": ["sexy", "perfect", "amazing", "beautiful", "love", "best", "trending"],
+    "structure": "contrast-based (negation + affirmation)",
+    "language_options": ["English", "Chinese"]
+  },
+  
+  "sku_naming_convention": "TWESSIE_[REGION]_[NUMBER]",
+  "regions": ["NA", "EU", "SG", "JP", "AU"]
+}
