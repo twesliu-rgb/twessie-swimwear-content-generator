@@ -1,0 +1,2026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twessie Content Generator - 2026-06-02</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            padding: 40px 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #222;
+            margin-bottom: 10px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        
+        .batch-info {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .info-item {
+            text-align: center;
+        }
+        
+        .info-label {
+            font-size: 0.9em;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .info-value {
+            font-size: 1.8em;
+            color: #222;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 4px solid #666;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        
+        .sku {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            font-weight: bold;
+            color: #666;
+            background: #f5f5f5;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        
+        .group-badge {
+            display: inline-block;
+            background: #333;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        
+        .fabric-section {
+            margin-bottom: 20px;
+        }
+        
+        .fabric-title {
+            font-size: 0.95em;
+            font-weight: 600;
+            color: #222;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .fabric-item {
+            margin-bottom: 12px;
+            padding-left: 15px;
+            border-left: 2px solid #ddd;
+        }
+        
+        .fabric-name {
+            font-size: 0.9em;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .fabric-desc {
+            font-size: 0.85em;
+            color: #777;
+            margin-top: 3px;
+            line-height: 1.4;
+        }
+        
+        .slogan {
+            background: linear-gradient(135deg, #f9f9f9 0%, #f0f0f0 100%);
+            padding: 15px;
+            border-radius: 6px;
+            font-size: 0.95em;
+            font-style: italic;
+            color: #555;
+            border-left: 3px solid #666;
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+        
+        .timestamp {
+            font-size: 0.8em;
+            color: #999;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #f0f0f0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .batch-info {
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✨ Twessie Content Generator</h1>
+            <div class="batch-info">
+                <div class="info-item">
+                    <div class="info-label">Batch Date</div>
+                    <div class="info-value">2026-06-02</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Total Assets</div>
+                    <div class="info-value">50</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Groups</div>
+                    <div class="info-value">5</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">SKUs per Group</div>
+                    <div class="info-value">10</div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="grid">
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_EU_0101</div>
+                        <span class="group-badge">group_001</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Minimalist by design. Intelligent by nature.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0102</div>
+                        <span class="group-badge">group_001</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Reject the obvious. Own the understated.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0103</div>
+                        <span class="group-badge">group_001</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Minimalist by design. Intelligent by nature.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0104</div>
+                        <span class="group-badge">group_001</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't design to be stared at. We design to stand apart.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0105</div>
+                        <span class="group-badge">group_001</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Not for the masses. Crafted for the discerning.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0106</div>
+                        <span class="group-badge">group_001</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Minimalist by design. Intelligent by nature.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0107</div>
+                        <span class="group-badge">group_001</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Minimalist by design. Intelligent by nature.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_EU_0108</div>
+                        <span class="group-badge">group_001</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Reject the obvious. Own the understated.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_EU_0109</div>
+                        <span class="group-badge">group_001</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Reject the obvious. Own the understated.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0110</div>
+                        <span class="group-badge">group_001</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Not for the masses. Crafted for the discerning.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0201</div>
+                        <span class="group-badge">group_002</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Refuse the expected. Embrace the refined.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0202</div>
+                        <span class="group-badge">group_002</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Minimalist by design. Intelligent by nature.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0203</div>
+                        <span class="group-badge">group_002</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Refuse the expected. Embrace the refined.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0204</div>
+                        <span class="group-badge">group_002</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Anti-aesthetic luxury. Pure architectural elegance.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_EU_0205</div>
+                        <span class="group-badge">group_002</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Reject the obvious. Own the understated.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_EU_0206</div>
+                        <span class="group-badge">group_002</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Not for the masses. Crafted for the discerning.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_JP_0207</div>
+                        <span class="group-badge">group_002</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Reject the obvious. Own the understated.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0208</div>
+                        <span class="group-badge">group_002</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't follow trends. We define silence.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0209</div>
+                        <span class="group-badge">group_002</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't design to be stared at. We design to stand apart.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0210</div>
+                        <span class="group-badge">group_002</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't follow trends. We define silence.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0301</div>
+                        <span class="group-badge">group_003</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Not loud. Not obvious. Unmistakably us.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0302</div>
+                        <span class="group-badge">group_003</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Minimalist by design. Intelligent by nature.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0303</div>
+                        <span class="group-badge">group_003</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Not loud. Not obvious. Unmistakably us.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0304</div>
+                        <span class="group-badge">group_003</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Minimalist by design. Intelligent by nature.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_EU_0305</div>
+                        <span class="group-badge">group_003</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Not loud. Not obvious. Unmistakably us.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_JP_0306</div>
+                        <span class="group-badge">group_003</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Minimalist by design. Intelligent by nature.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_EU_0307</div>
+                        <span class="group-badge">group_003</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't follow trends. We define silence.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0308</div>
+                        <span class="group-badge">group_003</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Not for the masses. Crafted for the discerning.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0309</div>
+                        <span class="group-badge">group_003</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't design to be stared at. We design to stand apart.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0310</div>
+                        <span class="group-badge">group_003</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Reject the obvious. Own the understated.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_EU_0401</div>
+                        <span class="group-badge">group_004</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Reject the obvious. Own the understated.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0402</div>
+                        <span class="group-badge">group_004</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Refuse the expected. Embrace the refined.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0403</div>
+                        <span class="group-badge">group_004</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Reject the obvious. Own the understated.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0404</div>
+                        <span class="group-badge">group_004</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Minimalist by design. Intelligent by nature.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0405</div>
+                        <span class="group-badge">group_004</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Anti-aesthetic luxury. Pure architectural elegance.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0406</div>
+                        <span class="group-badge">group_004</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Reject the obvious. Own the understated.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_JP_0407</div>
+                        <span class="group-badge">group_004</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Not for the masses. Crafted for the discerning.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0408</div>
+                        <span class="group-badge">group_004</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't follow trends. We define silence.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0409</div>
+                        <span class="group-badge">group_004</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Refuse the expected. Embrace the refined.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0410</div>
+                        <span class="group-badge">group_004</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't follow trends. We define silence.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0501</div>
+                        <span class="group-badge">group_005</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't follow trends. We define silence.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0502</div>
+                        <span class="group-badge">group_005</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Anti-aesthetic luxury. Pure architectural elegance.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0503</div>
+                        <span class="group-badge">group_005</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Refuse the expected. Embrace the refined.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_NA_0504</div>
+                        <span class="group-badge">group_005</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Minimalist by design. Intelligent by nature.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0505</div>
+                        <span class="group-badge">group_005</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Not loud. Not obvious. Unmistakably us.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0506</div>
+                        <span class="group-badge">group_005</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't design to be stared at. We design to stand apart.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_SG_0507</div>
+                        <span class="group-badge">group_005</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Anti-aesthetic luxury. Pure architectural elegance.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_EU_0508</div>
+                        <span class="group-badge">group_005</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">We don't design to be stared at. We design to stand apart.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_AU_0509</div>
+                        <span class="group-badge">group_005</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Refuse the expected. Embrace the refined.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="sku">TWESSIE_JP_0510</div>
+                        <span class="group-badge">group_005</span>
+                    </div>
+                </div>
+                
+                <div class="fabric-section">
+                    <div class="fabric-title">📋 Fabric Directions</div>
+                    
+            <div class="fabric-item">
+                <div class="fabric-name">可持续再生尼龙哑光缎面 (Econyl Sleek Satin)</div>
+                <div class="fabric-desc">细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Obsidian Black</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">哑光复古法式针织 (Matte Ribbed Knit)</div>
+                <div class="fabric-desc">特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Olive Drab & Burnt Terracotta</div>
+            </div>
+
+            <div class="fabric-item">
+                <div class="fabric-name">微褶皱高弹肌理 (Crinkled Seersucker)</div>
+                <div class="fabric-desc">采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感</div>
+                <div class="fabric-desc"><strong>Colors:</strong> Stone Gray & Chalk White</div>
+            </div>
+
+                </div>
+                
+                <div class="slogan">Refuse the expected. Embrace the refined.</div>
+                
+                <div class="timestamp">Generated: 2026-06-02T07:00:05.260371Z</div>
+            </div>
+
+        </div>
+        
+        <footer>
+            <p>🚀 Powered by Twessie Content Generator | Independent Magazine Minimalism</p>
+        </footer>
+    </div>
+</body>
+</html>
