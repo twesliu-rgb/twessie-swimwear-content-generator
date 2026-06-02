@@ -1,0 +1,1506 @@
+{
+  "batch_date": "2026-06-02",
+  "total_assets": 50,
+  "assets": [
+    {
+      "date": "2026-06-02",
+      "group_id": "group_001",
+      "sku": "TWESSIE_NA_0101",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Not loud. Not obvious. Unmistakably us.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_001",
+      "sku": "TWESSIE_NA_0102",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "We don't follow trends. We define silence.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_001",
+      "sku": "TWESSIE_EU_0103",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Minimalist by design. Intelligent by nature.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_001",
+      "sku": "TWESSIE_JP_0104",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Minimalist by design. Intelligent by nature.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_001",
+      "sku": "TWESSIE_AU_0105",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Not for the masses. Crafted for the discerning.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_001",
+      "sku": "TWESSIE_JP_0106",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Anti-aesthetic luxury. Pure architectural elegance.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_001",
+      "sku": "TWESSIE_NA_0107",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Anti-aesthetic luxury. Pure architectural elegance.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_001",
+      "sku": "TWESSIE_AU_0108",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Not loud. Not obvious. Unmistakably us.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_001",
+      "sku": "TWESSIE_NA_0109",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Reject the obvious. Own the understated.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_001",
+      "sku": "TWESSIE_SG_0110",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Refuse the expected. Embrace the refined.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_002",
+      "sku": "TWESSIE_NA_0201",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Not for the masses. Crafted for the discerning.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_002",
+      "sku": "TWESSIE_JP_0202",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "We don't follow trends. We define silence.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_002",
+      "sku": "TWESSIE_EU_0203",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Reject the obvious. Own the understated.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_002",
+      "sku": "TWESSIE_AU_0204",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Refuse the expected. Embrace the refined.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_002",
+      "sku": "TWESSIE_EU_0205",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "We don't design to be stared at. We design to stand apart.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_002",
+      "sku": "TWESSIE_NA_0206",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Reject the obvious. Own the understated.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_002",
+      "sku": "TWESSIE_SG_0207",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Not for the masses. Crafted for the discerning.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_002",
+      "sku": "TWESSIE_NA_0208",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Minimalist by design. Intelligent by nature.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_002",
+      "sku": "TWESSIE_AU_0209",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Reject the obvious. Own the understated.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_002",
+      "sku": "TWESSIE_NA_0210",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Not loud. Not obvious. Unmistakably us.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_003",
+      "sku": "TWESSIE_EU_0301",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "We don't follow trends. We define silence.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_003",
+      "sku": "TWESSIE_JP_0302",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Reject the obvious. Own the understated.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_003",
+      "sku": "TWESSIE_EU_0303",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Not for the masses. Crafted for the discerning.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_003",
+      "sku": "TWESSIE_JP_0304",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "We don't follow trends. We define silence.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_003",
+      "sku": "TWESSIE_SG_0305",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Minimalist by design. Intelligent by nature.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_003",
+      "sku": "TWESSIE_AU_0306",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Anti-aesthetic luxury. Pure architectural elegance.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_003",
+      "sku": "TWESSIE_EU_0307",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Not for the masses. Crafted for the discerning.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_003",
+      "sku": "TWESSIE_SG_0308",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "We don't follow trends. We define silence.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_003",
+      "sku": "TWESSIE_JP_0309",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Anti-aesthetic luxury. Pure architectural elegance.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_003",
+      "sku": "TWESSIE_AU_0310",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        }
+      },
+      "shopify_slogan": "Anti-aesthetic luxury. Pure architectural elegance.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_004",
+      "sku": "TWESSIE_NA_0401",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "We don't design to be stared at. We design to stand apart.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_004",
+      "sku": "TWESSIE_JP_0402",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "We don't design to be stared at. We design to stand apart.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_004",
+      "sku": "TWESSIE_NA_0403",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Reject the obvious. Own the understated.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_004",
+      "sku": "TWESSIE_NA_0404",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "We don't follow trends. We define silence.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_004",
+      "sku": "TWESSIE_AU_0405",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Not loud. Not obvious. Unmistakably us.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_004",
+      "sku": "TWESSIE_EU_0406",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Not loud. Not obvious. Unmistakably us.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_004",
+      "sku": "TWESSIE_SG_0407",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Not loud. Not obvious. Unmistakably us.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_004",
+      "sku": "TWESSIE_JP_0408",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Anti-aesthetic luxury. Pure architectural elegance.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_004",
+      "sku": "TWESSIE_JP_0409",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Refuse the expected. Embrace the refined.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_004",
+      "sku": "TWESSIE_SG_0410",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        },
+        "direction_3": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        }
+      },
+      "shopify_slogan": "Minimalist by design. Intelligent by nature.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_005",
+      "sku": "TWESSIE_AU_0501",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        }
+      },
+      "shopify_slogan": "Not for the masses. Crafted for the discerning.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_005",
+      "sku": "TWESSIE_NA_0502",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        }
+      },
+      "shopify_slogan": "Refuse the expected. Embrace the refined.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_005",
+      "sku": "TWESSIE_EU_0503",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        }
+      },
+      "shopify_slogan": "Anti-aesthetic luxury. Pure architectural elegance.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_005",
+      "sku": "TWESSIE_EU_0504",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        }
+      },
+      "shopify_slogan": "Minimalist by design. Intelligent by nature.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_005",
+      "sku": "TWESSIE_NA_0505",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        }
+      },
+      "shopify_slogan": "We don't follow trends. We define silence.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_005",
+      "sku": "TWESSIE_AU_0506",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        }
+      },
+      "shopify_slogan": "Anti-aesthetic luxury. Pure architectural elegance.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_005",
+      "sku": "TWESSIE_AU_0507",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        }
+      },
+      "shopify_slogan": "Refuse the expected. Embrace the refined.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_005",
+      "sku": "TWESSIE_EU_0508",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        }
+      },
+      "shopify_slogan": "Reject the obvious. Own the understated.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_005",
+      "sku": "TWESSIE_AU_0509",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        }
+      },
+      "shopify_slogan": "Not for the masses. Crafted for the discerning.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    },
+    {
+      "date": "2026-06-02",
+      "group_id": "group_005",
+      "sku": "TWESSIE_SG_0510",
+      "fabric_analysis": {
+        "direction_1": {
+          "name": "微褶皱高弹肌理",
+          "name_en": "Crinkled Seersucker",
+          "spec": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+          "texture_quality": "micro-textured, sculptural",
+          "color_palette": "Stone Gray & Chalk White"
+        },
+        "direction_2": {
+          "name": "哑光复古法式针织",
+          "name_en": "Matte Ribbed Knit",
+          "spec": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+          "texture_quality": "matte, dense, magazine-grade",
+          "color_palette": "Olive Drab & Burnt Terracotta"
+        },
+        "direction_3": {
+          "name": "可持续再生尼龙哑光缎面",
+          "name_en": "Econyl Sleek Satin",
+          "spec": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+          "texture_quality": "second-skin smooth, invisible seams",
+          "color_palette": "Obsidian Black"
+        }
+      },
+      "shopify_slogan": "Not loud. Not obvious. Unmistakably us.",
+      "generated_at": "2026-06-02T06:52:40.084417Z"
+    }
+  ]
+}
