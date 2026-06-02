@@ -248,43 +248,50 @@ def generate_clean_shopify_html():
     
     for product in products:
         colors_html = "".join([
-            f'<button class="option-btn" onclick="this.classList.toggle(\'active\')">{color}</button>'
+            '<button class="option-btn" onclick="this.classList.toggle(\'active\')">%s</button>' % color
             for color in product['colors']
         ])
         
         sizes_html = "".join([
-            f'<button class="option-btn" onclick="this.classList.toggle(\'active\')">{size}</button>'
+            '<button class="option-btn" onclick="this.classList.toggle(\'active\')">%s</button>' % size
             for size in product['sizes']
         ])
         
-        html_content += f"""
+        price = product['base_price']
+        sku = product['sku']
+        category = product['category']
+        title_en = product['title_en']
+        title_cn = product['title_cn']
+        description = product['description_en']
+        
+        html_content += """
             <div class="product">
                 <div class="product-image">
-                    <span class="product-badge">{product['category']}</span>
+                    <span class="product-badge">""" + category + """</span>
                 </div>
                 
                 <div class="product-info">
-                    <div class="product-category">{product['category']}</div>
-                    <div class="product-name">{product['title_en']}</div>
-                    <div class="product-name-cn">{product['title_cn']}</div>
+                    <div class="product-category">""" + category + """</div>
+                    <div class="product-name">""" + title_en + """</div>
+                    <div class="product-name-cn">""" + title_cn + """</div>
                     
-                    <div class="product-price">${product['base_price']:.2f}}</div>
-                    <div class="product-sku">{product['sku']}</div>
+                    <div class="product-price">$""" + str(price) + """</div>
+                    <div class="product-sku">""" + sku + """</div>
                     
-                    <div class="product-description">{product['description_en']}</div>
+                    <div class="product-description">""" + description + """</div>
                     
                     <div class="options-section">
                         <div class="option-group">
                             <label class="option-label">Color</label>
                             <div class="option-values">
-                                {colors_html}
+                                """ + colors_html + """
                             </div>
                         </div>
                         
                         <div class="option-group">
                             <label class="option-label">Size</label>
                             <div class="option-values">
-                                {sizes_html}
+                                """ + sizes_html + """
                             </div>
                         </div>
                     </div>
@@ -301,7 +308,6 @@ def generate_clean_shopify_html():
     </footer>
     
     <script>
-        // 简单的选项交互
         document.querySelectorAll('.option-btn').forEach(btn => {
             btn.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -317,7 +323,7 @@ def generate_clean_shopify_html():
     with open(html_file, 'w', encoding='utf-8') as f:
         f.write(html_content)
     
-    print(f"✅ Clean Shopify HTML preview generated: {html_file}")
+    print("✅ Clean Shopify HTML preview generated: " + str(html_file))
 
 if __name__ == "__main__":
     generate_clean_shopify_html()
