@@ -15,7 +15,7 @@ def generate_clean_shopify_html():
     products_file = LATEST_OUTPUT / "shopify_products.json"
     
     if not products_file.exists():
-        print(f"Products file not found: {products_file}")
+        print("Products file not found")
         return
     
     with open(products_file, 'r', encoding='utf-8') as f:
@@ -23,7 +23,8 @@ def generate_clean_shopify_html():
     
     products = data.get('products', [])
     
-    html_content = """<!DOCTYPE html>
+    parts = []
+    parts.append("""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -118,6 +119,7 @@ def generate_clean_shopify_html():
             font-size: 0.75em;
             font-weight: 600;
             letter-spacing: 1px;
+            z-index: 10;
         }
         
         .product-info {
@@ -244,7 +246,7 @@ def generate_clean_shopify_html():
     
     <div class="container">
         <div class="grid">
-"""
+""")
     
     for product in products:
         colors_html = "".join([
@@ -265,43 +267,43 @@ def generate_clean_shopify_html():
         description = product['description_en']
         image_url = product.get('image_url', '')
         
-        html_content += """
-            <div class="product">
-                <div class="product-image">
-                    <span class="product-badge">""" + category + """</span>
-                    <img src=\"""" + image_url + """\" alt=\"""" + title_en + """\">
-                </div>
-                
-                <div class="product-info">
-                    <div class="product-category">""" + category + """</div>
-                    <div class="product-name">""" + title_en + """</div>
-                    <div class="product-name-cn">""" + title_cn + """</div>
-                    
-                    <div class="product-price">$""" + str(price) + """</div>
-                    <div class="product-sku">""" + sku + """</div>
-                    
-                    <div class="product-description">""" + description + """</div>
-                    
-                    <div class="options-section">
-                        <div class="option-group">
-                            <label class="option-label">Color</label>
-                            <div class="option-values">
-                                """ + colors_html + """
-                            </div>
-                        </div>
-                        
-                        <div class="option-group">
-                            <label class="option-label">Size</label>
-                            <div class="option-values">
-                                """ + sizes_html + """
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-"""
+        product_html = '<div class="product">\n'
+        product_html += '                <div class="product-image">\n'
+        product_html += '                    <span class="product-badge">' + category + '</span>\n'
+        product_html += '                    <img src="' + image_url + '" alt="' + title_en + '">\n'
+        product_html += '                </div>\n'
+        product_html += '                \n'
+        product_html += '                <div class="product-info">\n'
+        product_html += '                    <div class="product-category">' + category + '</div>\n'
+        product_html += '                    <div class="product-name">' + title_en + '</div>\n'
+        product_html += '                    <div class="product-name-cn">' + title_cn + '</div>\n'
+        product_html += '                    \n'
+        product_html += '                    <div class="product-price">$' + str(price) + '</div>\n'
+        product_html += '                    <div class="product-sku">' + sku + '</div>\n'
+        product_html += '                    \n'
+        product_html += '                    <div class="product-description">' + description + '</div>\n'
+        product_html += '                    \n'
+        product_html += '                    <div class="options-section">\n'
+        product_html += '                        <div class="option-group">\n'
+        product_html += '                            <label class="option-label">Color</label>\n'
+        product_html += '                            <div class="option-values">\n'
+        product_html += '                                ' + colors_html + '\n'
+        product_html += '                            </div>\n'
+        product_html += '                        </div>\n'
+        product_html += '                        \n'
+        product_html += '                        <div class="option-group">\n'
+        product_html += '                            <label class="option-label">Size</label>\n'
+        product_html += '                            <div class="option-values">\n'
+        product_html += '                                ' + sizes_html + '\n'
+        product_html += '                            </div>\n'
+        product_html += '                        </div>\n'
+        product_html += '                    </div>\n'
+        product_html += '                </div>\n'
+        product_html += '            </div>\n'
+        
+        parts.append(product_html)
     
-    html_content += """
+    parts.append("""
         </div>
     </div>
     
@@ -319,7 +321,9 @@ def generate_clean_shopify_html():
     </script>
 </body>
 </html>
-"""
+""")
+    
+    html_content = "".join(parts)
     
     html_file = LATEST_OUTPUT / "shopify_preview.html"
     with open(html_file, 'w', encoding='utf-8') as f:
