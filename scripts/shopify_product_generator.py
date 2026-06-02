@@ -5,6 +5,7 @@ import random
 from datetime import datetime
 from pathlib import Path
 from dataclasses import dataclass, asdict
+import hashlib
 
 CONFIG_PATH = Path(__file__).parent.parent / "config" / "brand_guidelines.json"
 with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
@@ -30,6 +31,7 @@ class ShopifyProduct:
     seo_keywords: str
     group_id: str
     generated_at: str
+    image_url: str
 
 class ShopifyProductGenerator:
     def __init__(self):
@@ -54,6 +56,24 @@ class ShopifyProductGenerator:
             "Berlin underground carpark, raw brutalist architecture",
             "Scandinavian forest clearing, dappled natural light through trees"
         ]
+    
+    def generate_image_url(self, sku, category, colors):
+        """Generate a unique placeholder image URL for each product"""
+        hash_input = sku + category + "".join(colors)
+        hash_value = hashlib.md5(hash_input.encode()).hexdigest()[:8]
+        
+        category_colors = {
+            "Bikini Top": "3d4a5a",
+            "Bikini Bottom": "4a5a6a",
+            "One-Piece": "5a6a7a",
+            "Halter Strap Accessory": "6a7a8a"
+        }
+        
+        color_code = category_colors.get(category, "5a6a7a")
+        
+        image_url = f"https://via.placeholder.com/500x650/{color_code}/ffffff?text=TWESSIE+{hash_value.upper()}"
+        
+        return image_url
     
     def get_color_from_fabric(self, fabric):
         """Extract color palette from fabric"""
@@ -219,7 +239,6 @@ class ShopifyProductGenerator:
         products = []
         now = datetime.now().isoformat() + "Z"
         
-        # Distribute categories: 20 Tops, 20 Bottoms, 8 One-Pieces, 2 Accessories
         category_distribution = (
             ["Bikini Top"] * 20 + 
             ["Bikini Bottom"] * 20 + 
@@ -233,7 +252,6 @@ class ShopifyProductGenerator:
                 idx = (group_num - 1) * 10 + (product_num - 1)
                 category = category_distribution[idx]
                 
-                # Generate unique fabric combination
                 fabric_pair = self.generate_fabric_pair()
                 colors = self.get_color_from_fabric(fabric_pair["main"])
                 if len(colors) < 2:
@@ -244,6 +262,7 @@ class ShopifyProductGenerator:
                 sku = self.generate_sku(group_num, product_num, category)
                 title_en = self.generate_product_title(category, colors, fabric_pair["main"])
                 title_cn = self.generate_product_title_cn(category, colors, fabric_pair["main"])
+                image_url = self.generate_image_url(sku, category, colors)
                 
                 product = ShopifyProduct(
                     id=f"TWESSIE_{group_num}_{product_num}",
@@ -261,7 +280,8 @@ class ShopifyProductGenerator:
                     midjourney_prompt=self.generate_midjourney_prompt(category, colors, fabric_pair["main"], tone),
                     seo_keywords=self.generate_seo_keywords(category, colors, fabric_pair["main"]),
                     group_id=f"group_{group_num:03d}",
-                    generated_at=now
+                    generated_at=now,
+                    image_url=image_url
                 )
                 
                 products.append(asdict(product))
@@ -272,7 +292,6 @@ class ShopifyProductGenerator:
         """Save products as JSON and CSV"""
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         
-        # Save as JSON
         json_file = OUTPUT_DIR / "shopify_products.json"
         with open(json_file, 'w', encoding='utf-8') as f:
             json.dump({
@@ -281,9 +300,8 @@ class ShopifyProductGenerator:
                 "products": products
             }, f, ensure_ascii=False, indent=2)
         
-        print(f"✅ Shopify products JSON saved: {json_file}")
+        print(f"OK JSON saved: {json_file}")
         
-        # Save as CSV for Shopify import
         import csv
         csv_file = OUTPUT_DIR / "shopify_import.csv"
         
@@ -299,7 +317,7 @@ class ShopifyProductGenerator:
             
             for product in products:
                 handle = product['sku'].lower().replace('_', '-')
-                description = f"<p>{product['description_en']}</p><p>SEO: {product['seo_keywords']}</p>"
+                description = f"<p>{product['description_en']}</p>"
                 
                 for color in product['colors']:
                     for size in product['sizes']:
@@ -321,14 +339,14 @@ class ShopifyProductGenerator:
                             "Variant Inventory Qty": 10
                         })
         
-        print(f"✅ Shopify CSV import file saved: {csv_file}")
+        print(f"OK CSV saved: {csv_file}")
     
     def run(self):
-        print("🚀 Shopify Product Generator Starting...")
+        print("OK Starting product generation...")
         products = self.generate_products()
-        print(f"📊 Generated {len(products)} unique products")
+        print(f"OK Generated {len(products)} products")
         self.save_products(products)
-        print("✨ Generation complete!")
+        print("OK Complete!")
 
 if __name__ == "__main__":
     generator = ShopifyProductGenerator()
