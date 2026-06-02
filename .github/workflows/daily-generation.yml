@@ -31,7 +31,7 @@ jobs:
       
       - name: Generate Shopify HTML preview
         run: |
-          python scripts/generate_shopify_html.py
+          python scripts/generate_clean_shopify_html.py
       
       - name: Configure Git
         run: |
