@@ -29,9 +29,9 @@ jobs:
         run: |
           python scripts/shopify_product_generator.py
       
-      - name: Generate HTML preview
+      - name: Generate Shopify HTML preview
         run: |
-          python scripts/generate_html_preview.py
+          python scripts/generate_shopify_html.py
       
       - name: Configure Git
         run: |
