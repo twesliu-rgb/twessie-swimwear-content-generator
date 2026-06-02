@@ -9,13 +9,13 @@ LATEST_OUTPUT = sorted(OUTPUT_DIR.glob("*"), reverse=True)[0] if OUTPUT_DIR.exis
 
 def generate_clean_shopify_html():
     if not LATEST_OUTPUT or not LATEST_OUTPUT.is_dir():
-        print("❌ No output directory found")
+        print("No output directory found")
         return
     
     products_file = LATEST_OUTPUT / "shopify_products.json"
     
     if not products_file.exists():
-        print(f"❌ Products file not found: {products_file}")
+        print(f"Products file not found: {products_file}")
         return
     
     with open(products_file, 'r', encoding='utf-8') as f:
@@ -263,11 +263,13 @@ def generate_clean_shopify_html():
         title_en = product['title_en']
         title_cn = product['title_cn']
         description = product['description_en']
+        image_url = product.get('image_url', '')
         
         html_content += """
             <div class="product">
                 <div class="product-image">
                     <span class="product-badge">""" + category + """</span>
+                    <img src=\"""" + image_url + """\" alt=\"""" + title_en + """\">
                 </div>
                 
                 <div class="product-info">
@@ -323,7 +325,7 @@ def generate_clean_shopify_html():
     with open(html_file, 'w', encoding='utf-8') as f:
         f.write(html_content)
     
-    print("✅ Clean Shopify HTML preview generated: " + str(html_file))
+    print("OK HTML generated: " + str(html_file))
 
 if __name__ == "__main__":
     generate_clean_shopify_html()
