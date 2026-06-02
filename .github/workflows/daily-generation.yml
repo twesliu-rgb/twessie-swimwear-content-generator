@@ -25,9 +25,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Run daily content generator
+      - name: Run Shopify product generator
         run: |
-          python scripts/daily_content_generator.py
+          python scripts/shopify_product_generator.py
       
       - name: Generate HTML preview
         run: |
