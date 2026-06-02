@@ -29,6 +29,10 @@ jobs:
         run: |
           python scripts/daily_content_generator.py
       
+      - name: Generate HTML preview
+        run: |
+          python scripts/generate_html_preview.py
+      
       - name: Configure Git
         run: |
           git config --local user.email "bot@twessie.ai"
