@@ -1,0 +1,1890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twessie Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #ffffff;
+            color: #222;
+            line-height: 1.6;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 40px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            font-weight: 300;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 0.95em;
+            color: #888;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 35px;
+        }
+        
+        .product {
+            background: #fff;
+            border: 1px solid #f0f0f0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .product:hover {
+            border-color: #ddd;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 420px;
+            background: linear-gradient(135deg, #f5f5f5 0%, #efefef 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 0.9em;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #222;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            font-weight: 600;
+            letter-spacing: 1px;
+            z-index: 10;
+        }
+        
+        .product-info {
+            padding: 25px;
+        }
+        
+        .product-category {
+            font-size: 0.8em;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        
+        .product-name {
+            font-size: 1.1em;
+            font-weight: 600;
+            margin-bottom: 4px;
+            line-height: 1.3;
+        }
+        
+        .product-name-cn {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 15px;
+        }
+        
+        .product-price {
+            font-size: 1.4em;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .product-sku {
+            font-size: 0.75em;
+            color: #999;
+            font-family: monospace;
+            margin-bottom: 20px;
+        }
+        
+        .product-description {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .options-section {
+            margin-top: 20px;
+            border-top: 1px solid #f0f0f0;
+            padding-top: 20px;
+        }
+        
+        .option-group {
+            margin-bottom: 20px;
+        }
+        
+        .option-label {
+            font-size: 0.85em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #222;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .option-values {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        
+        .option-btn {
+            padding: 8px 14px;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 4px;
+            font-size: 0.85em;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+        
+        .option-btn:hover {
+            border-color: #222;
+            background: #f8f8f8;
+        }
+        
+        .option-btn.active {
+            border-color: #222;
+            background: #222;
+            color: white;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px;
+            border-top: 1px solid #f0f0f0;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .product-image {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TWESSIE</h1>
+        <p class="subtitle">Independent Magazine Minimalism</p>
+    </header>
+    
+    <div class="container">
+        <div class="grid">
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+CEC127B0" alt="Crinkled Seersucker High-Waist Bikini Top in Stone Gray">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Crinkled Seersucker High-Waist Bikini Top in Stone Gray</div>
+                    <div class="product-name-cn">Stone Gray 纹理感高端泳装上衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BT_0101</div>
+                    
+                    <div class="product-description">Crafted in premium Crinkled Seersucker with Econyl Sleek Satin accents. This bikini top epitomizes minimalist luxury luxury. Featuring color-blocking in Stone Gray and Chalk White. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+944B55E8" alt="Raw-Edge Stone Gray Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Raw-Edge Stone Gray Bikini Bottom</div>
+                    <div class="product-name-cn">Stone Gray 高腰裁剪比基尼</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_EU_BB_0102</div>
+                    
+                    <div class="product-description">Crafted in premium Crinkled Seersucker with Matte Ribbed Knit accents. This bikini bottom epitomizes anti-fashion statement luxury. Featuring color-blocking in Stone Gray and Chalk White. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">One-Piece</span>
+                    <img src="https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+132CA15B" alt="Minimalist Matte Ribbed Knit One-Piece">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">One-Piece</div>
+                    <div class="product-name">Minimalist Matte Ribbed Knit One-Piece</div>
+                    <div class="product-name-cn">Olive Drab 高端一片式泳衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_OP_0103</div>
+                    
+                    <div class="product-description">A statement piece in Matte Ribbed Knit. This one-piece combines intelligent aesthetic design with impeccable craftsmanship. Available in Olive Drab with Burnt Terracotta detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+2744ABE0" alt="Architecture-Cut Chalk White Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Architecture-Cut Chalk White Bikini Top</div>
+                    <div class="product-name-cn">建筑风格 Chalk White 比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BT_0104</div>
+                    
+                    <div class="product-description">A statement piece in Crinkled Seersucker. This bikini top combines minimalist luxury design with impeccable craftsmanship. Available in Chalk White with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+456382B9" alt="Structural Econyl Sleek Satin Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Structural Econyl Sleek Satin Bikini Bottom</div>
+                    <div class="product-name-cn">Obsidian Black 高腰裁剪比基尼</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_BB_0105</div>
+                    
+                    <div class="product-description">Crafted in premium Econyl Sleek Satin with Crinkled Seersucker accents. This bikini bottom epitomizes minimalist luxury luxury. Featuring color-blocking in Obsidian Black and Chalk White. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+ADCA6B64" alt="Structural Econyl Sleek Satin Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Structural Econyl Sleek Satin Bikini Bottom</div>
+                    <div class="product-name-cn">Obsidian Black 极简主义比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_BB_0106</div>
+                    
+                    <div class="product-description">Econyl Sleek Satin construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Obsidian Black colorway with Olive Drab accents creates a sophisticated palette. Pure minimalist luxury elegance.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+F18D518C" alt="Structural Matte Ribbed Knit Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Structural Matte Ribbed Knit Bikini Bottom</div>
+                    <div class="product-name-cn">雕塑感 Olive Drab 比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_NA_BB_0107</div>
+                    
+                    <div class="product-description">Matte Ribbed Knit construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Olive Drab colorway with Burnt Terracotta accents creates a sophisticated palette. Pure intelligent aesthetic elegance.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+8C21DEE7" alt="Structural Crinkled Seersucker Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Structural Crinkled Seersucker Bikini Bottom</div>
+                    <div class="product-name-cn">Chalk White 高腰裁剪比基尼</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BB_0108</div>
+                    
+                    <div class="product-description">A statement piece in Crinkled Seersucker. This bikini bottom combines rebellious yet refined design with impeccable craftsmanship. Available in Chalk White with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">One-Piece</span>
+                    <img src="https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+6D231398" alt="Minimalist Matte Ribbed Knit One-Piece">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">One-Piece</div>
+                    <div class="product-name">Minimalist Matte Ribbed Knit One-Piece</div>
+                    <div class="product-name-cn">Olive Drab 建筑风格连体泳衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_OP_0109</div>
+                    
+                    <div class="product-description">A statement piece in Matte Ribbed Knit. This one-piece combines intelligent aesthetic design with impeccable craftsmanship. Available in Olive Drab with Burnt Terracotta detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+ECDF6BED" alt="Minimalist Olive Drab Textured Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Minimalist Olive Drab Textured Bikini Top</div>
+                    <div class="product-name-cn">Olive Drab 极简主义雕塑感比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_BT_0110</div>
+                    
+                    <div class="product-description">Crafted in premium Matte Ribbed Knit with Crinkled Seersucker accents. This bikini top epitomizes minimalist luxury luxury. Featuring color-blocking in Olive Drab and Burnt Terracotta. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+E7DC686E" alt="Architecture-Cut Chalk White Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Architecture-Cut Chalk White Bikini Top</div>
+                    <div class="product-name-cn">建筑风格 Chalk White 比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_BT_0201</div>
+                    
+                    <div class="product-description">A statement piece in Crinkled Seersucker. This bikini top combines anti-fashion statement design with impeccable craftsmanship. Available in Chalk White with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+31B9E6AC" alt="Architecture-Cut Stone Gray Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Architecture-Cut Stone Gray Bikini Top</div>
+                    <div class="product-name-cn">Stone Gray 纹理感高端泳装上衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_NA_BT_0202</div>
+                    
+                    <div class="product-description">Crafted in premium Crinkled Seersucker with Matte Ribbed Knit accents. This bikini top epitomizes rebellious yet refined luxury. Featuring color-blocking in Stone Gray and Chalk White. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+4A40CDB3" alt="Obsidian Black Sculptural Econyl Sleek Satin Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Obsidian Black Sculptural Econyl Sleek Satin Bikini Top</div>
+                    <div class="product-name-cn">建筑风格 Obsidian Black 比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BT_0203</div>
+                    
+                    <div class="product-description">A statement piece in Econyl Sleek Satin. This bikini top combines intelligent aesthetic design with impeccable craftsmanship. Available in Obsidian Black with Olive Drab detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+D180D450" alt="High-Cut Obsidian Black Bikini Brief">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">High-Cut Obsidian Black Bikini Brief</div>
+                    <div class="product-name-cn">雕塑感 Obsidian Black 比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BB_0204</div>
+                    
+                    <div class="product-description">Crafted in premium Econyl Sleek Satin with Matte Ribbed Knit accents. This bikini bottom epitomizes rebellious yet refined luxury. Featuring color-blocking in Obsidian Black and Burnt Terracotta. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+57F580ED" alt="Olive Drab Sculptural Matte Ribbed Knit Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Olive Drab Sculptural Matte Ribbed Knit Bikini Top</div>
+                    <div class="product-name-cn">建筑风格 Olive Drab 比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_NA_BT_0205</div>
+                    
+                    <div class="product-description">A statement piece in Matte Ribbed Knit. This bikini top combines intelligent aesthetic design with impeccable craftsmanship. Available in Olive Drab with Burnt Terracotta detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+8B705477" alt="High-Cut Obsidian Black Bikini Brief">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">High-Cut Obsidian Black Bikini Brief</div>
+                    <div class="product-name-cn">雕塑感 Obsidian Black 比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_JP_BB_0206</div>
+                    
+                    <div class="product-description">A statement piece in Econyl Sleek Satin. This bikini bottom combines architectural elegance design with impeccable craftsmanship. Available in Obsidian Black with Burnt Terracotta detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+6B8705BC" alt="Structural Crinkled Seersucker Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Structural Crinkled Seersucker Bikini Bottom</div>
+                    <div class="product-name-cn">Chalk White 极简主义比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_BB_0207</div>
+                    
+                    <div class="product-description">Crafted in premium Crinkled Seersucker with Matte Ribbed Knit accents. This bikini bottom epitomizes intelligent aesthetic luxury. Featuring color-blocking in Chalk White and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+FE604065" alt="Matte Ribbed Knit High-Waist Bikini Top in Burnt Terracotta">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Matte Ribbed Knit High-Waist Bikini Top in Burnt Terracotta</div>
+                    <div class="product-name-cn">建筑风格 Burnt Terracotta 比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_BT_0208</div>
+                    
+                    <div class="product-description">A statement piece in Matte Ribbed Knit. This bikini top combines minimalist luxury design with impeccable craftsmanship. Available in Burnt Terracotta with Olive Drab detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+A8BDE55F" alt="Raw-Edge Stone Gray Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Raw-Edge Stone Gray Bikini Bottom</div>
+                    <div class="product-name-cn">雕塑感 Stone Gray 比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BB_0209</div>
+                    
+                    <div class="product-description">Crinkled Seersucker construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Stone Gray colorway with Chalk White accents creates a sophisticated palette. Pure minimalist luxury elegance.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+F1134CEA" alt="Stone Gray Sculptural Crinkled Seersucker Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Stone Gray Sculptural Crinkled Seersucker Bikini Top</div>
+                    <div class="product-name-cn">Stone Gray 极简主义雕塑感比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_EU_BT_0210</div>
+                    
+                    <div class="product-description">Crinkled Seersucker construction meets architectural precision in this bikini top. Designed for the intelligent, independent woman. The Stone Gray colorway with Chalk White accents creates a sophisticated palette. Pure rebellious yet refined elegance.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+EDC33C48" alt="Obsidian Black Sculptural Econyl Sleek Satin Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Obsidian Black Sculptural Econyl Sleek Satin Bikini Top</div>
+                    <div class="product-name-cn">建筑风格 Obsidian Black 比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_EU_BT_0301</div>
+                    
+                    <div class="product-description">Crafted in premium Econyl Sleek Satin with Matte Ribbed Knit accents. This bikini top epitomizes anti-fashion statement luxury. Featuring color-blocking in Obsidian Black and Burnt Terracotta. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+099C7394" alt="Matte Ribbed Knit High-Waist Bikini Top in Burnt Terracotta">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Matte Ribbed Knit High-Waist Bikini Top in Burnt Terracotta</div>
+                    <div class="product-name-cn">Burnt Terracotta 纹理感高端泳装上衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_EU_BT_0302</div>
+                    
+                    <div class="product-description">A statement piece in Matte Ribbed Knit. This bikini top combines minimalist luxury design with impeccable craftsmanship. Available in Burnt Terracotta with Olive Drab detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+693E8C61" alt="Raw-Edge Obsidian Black Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Raw-Edge Obsidian Black Bikini Bottom</div>
+                    <div class="product-name-cn">雕塑感 Obsidian Black 比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BB_0303</div>
+                    
+                    <div class="product-description">Econyl Sleek Satin construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Obsidian Black colorway with Olive Drab accents creates a sophisticated palette. Pure architectural elegance elegance.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+09919175" alt="High-Cut Stone Gray Bikini Brief">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">High-Cut Stone Gray Bikini Brief</div>
+                    <div class="product-name-cn">Stone Gray 高腰裁剪比基尼</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_NA_BB_0304</div>
+                    
+                    <div class="product-description">Crinkled Seersucker construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Stone Gray colorway with Chalk White accents creates a sophisticated palette. Pure intelligent aesthetic elegance.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+1AE612CC" alt="Structural Crinkled Seersucker Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Structural Crinkled Seersucker Bikini Bottom</div>
+                    <div class="product-name-cn">Stone Gray 高腰裁剪比基尼</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BB_0305</div>
+                    
+                    <div class="product-description">Crafted in premium Crinkled Seersucker with Matte Ribbed Knit accents. This bikini bottom epitomizes intelligent aesthetic luxury. Featuring color-blocking in Stone Gray and Chalk White. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+B0C842A6" alt="Architecture-Cut Olive Drab Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Architecture-Cut Olive Drab Bikini Top</div>
+                    <div class="product-name-cn">建筑风格 Olive Drab 比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_EU_BT_0306</div>
+                    
+                    <div class="product-description">Crafted in premium Matte Ribbed Knit with Crinkled Seersucker accents. This bikini top epitomizes anti-fashion statement luxury. Featuring color-blocking in Olive Drab and Burnt Terracotta. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+3809CC3A" alt="Chalk White Sculptural Crinkled Seersucker Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Chalk White Sculptural Crinkled Seersucker Bikini Top</div>
+                    <div class="product-name-cn">建筑风格 Chalk White 比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BT_0307</div>
+                    
+                    <div class="product-description">Crafted in premium Crinkled Seersucker with Matte Ribbed Knit accents. This bikini top epitomizes minimalist luxury luxury. Featuring color-blocking in Chalk White and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+86F0EA94" alt="Architecture-Cut Chalk White Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Architecture-Cut Chalk White Bikini Top</div>
+                    <div class="product-name-cn">建筑风格 Chalk White 比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_NA_BT_0308</div>
+                    
+                    <div class="product-description">A statement piece in Crinkled Seersucker. This bikini top combines anti-fashion statement design with impeccable craftsmanship. Available in Chalk White with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+DC5B0196" alt="Structural Econyl Sleek Satin Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Structural Econyl Sleek Satin Bikini Bottom</div>
+                    <div class="product-name-cn">雕塑感 Obsidian Black 比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BB_0309</div>
+                    
+                    <div class="product-description">A statement piece in Econyl Sleek Satin. This bikini bottom combines rebellious yet refined design with impeccable craftsmanship. Available in Obsidian Black with Olive Drab detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Halter Strap Accessory</span>
+                    <img src="https://via.placeholder.com/500x650/6a7a8a/ffffff?text=TWESSIE+8C14CBE4" alt="Convertible Halter Strap - Obsidian Black">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Halter Strap Accessory</div>
+                    <div class="product-name">Convertible Halter Strap - Obsidian Black</div>
+                    <div class="product-name-cn">Obsidian Black 建筑风格泳装配件</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_HA_0310</div>
+                    
+                    <div class="product-description">A statement piece in Econyl Sleek Satin. This halter strap accessory combines architectural elegance design with impeccable craftsmanship. Available in Obsidian Black with Olive Drab detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">One-Piece</span>
+                    <img src="https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+A90B39FD" alt="Sculptural Obsidian Black Monokini">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">One-Piece</div>
+                    <div class="product-name">Sculptural Obsidian Black Monokini</div>
+                    <div class="product-name-cn">Obsidian Black 极简主义连体泳装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_NA_OP_0401</div>
+                    
+                    <div class="product-description">Econyl Sleek Satin construction meets architectural precision in this one-piece. Designed for the intelligent, independent woman. The Obsidian Black colorway with Burnt Terracotta accents creates a sophisticated palette. Pure anti-fashion statement elegance.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+C928E1A0" alt="Crinkled Seersucker High-Waist Bikini Top in Chalk White">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Crinkled Seersucker High-Waist Bikini Top in Chalk White</div>
+                    <div class="product-name-cn">Chalk White 纹理感高端泳装上衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_BT_0402</div>
+                    
+                    <div class="product-description">A statement piece in Crinkled Seersucker. This bikini top combines minimalist luxury design with impeccable craftsmanship. Available in Chalk White with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">One-Piece</span>
+                    <img src="https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+A2D31B26" alt="High-Fashion Burnt Terracotta One-Piece Suit">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">One-Piece</div>
+                    <div class="product-name">High-Fashion Burnt Terracotta One-Piece Suit</div>
+                    <div class="product-name-cn">Burnt Terracotta 建筑风格连体泳衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_EU_OP_0403</div>
+                    
+                    <div class="product-description">A statement piece in Matte Ribbed Knit. This one-piece combines minimalist luxury design with impeccable craftsmanship. Available in Burnt Terracotta with Olive Drab detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+F900F258" alt="Burnt Terracotta Sculptural Matte Ribbed Knit Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Burnt Terracotta Sculptural Matte Ribbed Knit Bikini Top</div>
+                    <div class="product-name-cn">Burnt Terracotta 纹理感高端泳装上衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BT_0404</div>
+                    
+                    <div class="product-description">Crafted in premium Matte Ribbed Knit with Crinkled Seersucker accents. This bikini top epitomizes architectural elegance luxury. Featuring color-blocking in Burnt Terracotta and Olive Drab. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+70DC2876" alt="Architecture-Cut Obsidian Black Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Architecture-Cut Obsidian Black Bikini Top</div>
+                    <div class="product-name-cn">Obsidian Black 纹理感高端泳装上衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_NA_BT_0405</div>
+                    
+                    <div class="product-description">Crafted in premium Econyl Sleek Satin with Crinkled Seersucker accents. This bikini top epitomizes anti-fashion statement luxury. Featuring color-blocking in Obsidian Black and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+39584F05" alt="Burnt Terracotta Minimalist Matte Ribbed Knit Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Burnt Terracotta Minimalist Matte Ribbed Knit Bikini Bottom</div>
+                    <div class="product-name-cn">雕塑感 Burnt Terracotta 比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_BB_0406</div>
+                    
+                    <div class="product-description">A statement piece in Matte Ribbed Knit. This bikini bottom combines minimalist luxury design with impeccable craftsmanship. Available in Burnt Terracotta with Olive Drab detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">One-Piece</span>
+                    <img src="https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+F0454E13" alt="Sculptural Chalk White Monokini">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">One-Piece</div>
+                    <div class="product-name">Sculptural Chalk White Monokini</div>
+                    <div class="product-name-cn">Chalk White 高端一片式泳衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_OP_0407</div>
+                    
+                    <div class="product-description">Crinkled Seersucker construction meets architectural precision in this one-piece. Designed for the intelligent, independent woman. The Chalk White colorway with Stone Gray accents creates a sophisticated palette. Pure minimalist luxury elegance.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+E2849DAD" alt="Econyl Sleek Satin High-Waist Bikini Top in Obsidian Black">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Econyl Sleek Satin High-Waist Bikini Top in Obsidian Black</div>
+                    <div class="product-name-cn">Obsidian Black 纹理感高端泳装上衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_BT_0408</div>
+                    
+                    <div class="product-description">Crafted in premium Econyl Sleek Satin with Matte Ribbed Knit accents. This bikini top epitomizes architectural elegance luxury. Featuring color-blocking in Obsidian Black and Olive Drab. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+E1765CA2" alt="High-Cut Chalk White Bikini Brief">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">High-Cut Chalk White Bikini Brief</div>
+                    <div class="product-name-cn">Chalk White 高腰裁剪比基尼</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_NA_BB_0409</div>
+                    
+                    <div class="product-description">Crafted in premium Crinkled Seersucker with Matte Ribbed Knit accents. This bikini bottom epitomizes anti-fashion statement luxury. Featuring color-blocking in Chalk White and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">One-Piece</span>
+                    <img src="https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+15FE27F7" alt="High-Fashion Obsidian Black One-Piece Suit">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">One-Piece</div>
+                    <div class="product-name">High-Fashion Obsidian Black One-Piece Suit</div>
+                    <div class="product-name-cn">Obsidian Black 极简主义连体泳装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_OP_0410</div>
+                    
+                    <div class="product-description">Econyl Sleek Satin construction meets architectural precision in this one-piece. Designed for the intelligent, independent woman. The Obsidian Black colorway with Stone Gray accents creates a sophisticated palette. Pure minimalist luxury elegance.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+4AD1D00C" alt="Structural Crinkled Seersucker Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Structural Crinkled Seersucker Bikini Bottom</div>
+                    <div class="product-name-cn">雕塑感 Stone Gray 比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_NA_BB_0501</div>
+                    
+                    <div class="product-description">A statement piece in Crinkled Seersucker. This bikini bottom combines anti-fashion statement design with impeccable craftsmanship. Available in Stone Gray with Chalk White detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+AB9D95D4" alt="Structural Econyl Sleek Satin Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Structural Econyl Sleek Satin Bikini Bottom</div>
+                    <div class="product-name-cn">Obsidian Black 高腰裁剪比基尼</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BB_0502</div>
+                    
+                    <div class="product-description">Crafted in premium Econyl Sleek Satin with Crinkled Seersucker accents. This bikini bottom epitomizes architectural elegance luxury. Featuring color-blocking in Obsidian Black and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Halter Strap Accessory</span>
+                    <img src="https://via.placeholder.com/500x650/6a7a8a/ffffff?text=TWESSIE+71DF4E80" alt="Sculptural Halter Accessory - Obsidian Black">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Halter Strap Accessory</div>
+                    <div class="product-name">Sculptural Halter Accessory - Obsidian Black</div>
+                    <div class="product-name-cn">Obsidian Black 建筑风格泳装配件</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_HA_0503</div>
+                    
+                    <div class="product-description">Crafted in premium Econyl Sleek Satin with Crinkled Seersucker accents. This halter strap accessory epitomizes anti-fashion statement luxury. Featuring color-blocking in Obsidian Black and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+1BC44796" alt="Structural Matte Ribbed Knit Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Structural Matte Ribbed Knit Bikini Bottom</div>
+                    <div class="product-name-cn">雕塑感 Burnt Terracotta 比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_SG_BB_0504</div>
+                    
+                    <div class="product-description">Matte Ribbed Knit construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Burnt Terracotta colorway with Olive Drab accents creates a sophisticated palette. Pure anti-fashion statement elegance.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+BA937691" alt="Crinkled Seersucker High-Waist Bikini Top in Stone Gray">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Crinkled Seersucker High-Waist Bikini Top in Stone Gray</div>
+                    <div class="product-name-cn">建筑风格 Stone Gray 比基尼上装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_JP_BT_0505</div>
+                    
+                    <div class="product-description">Crafted in premium Crinkled Seersucker with Econyl Sleek Satin accents. This bikini top epitomizes architectural elegance luxury. Featuring color-blocking in Stone Gray and Chalk White. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">One-Piece</span>
+                    <img src="https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+3710AB10" alt="Sculptural Stone Gray Monokini">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">One-Piece</div>
+                    <div class="product-name">Sculptural Stone Gray Monokini</div>
+                    <div class="product-name-cn">Stone Gray 建筑风格连体泳衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_EU_OP_0506</div>
+                    
+                    <div class="product-description">A statement piece in Crinkled Seersucker. This one-piece combines rebellious yet refined design with impeccable craftsmanship. Available in Stone Gray with Chalk White detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button><button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+825DBC14" alt="Burnt Terracotta Minimalist Matte Ribbed Knit Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Burnt Terracotta Minimalist Matte Ribbed Knit Bikini Bottom</div>
+                    <div class="product-name-cn">雕塑感 Burnt Terracotta 比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_JP_BB_0507</div>
+                    
+                    <div class="product-description">A statement piece in Matte Ribbed Knit. This bikini bottom combines minimalist luxury design with impeccable craftsmanship. Available in Burnt Terracotta with Olive Drab detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button><button class="option-btn" onclick="this.classList.toggle('active')">Olive Drab</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">One-Piece</span>
+                    <img src="https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+A07BC188" alt="Obsidian Black Architectural One-Piece Swimsuit">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">One-Piece</div>
+                    <div class="product-name">Obsidian Black Architectural One-Piece Swimsuit</div>
+                    <div class="product-name-cn">Obsidian Black 建筑风格连体泳衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_JP_OP_0508</div>
+                    
+                    <div class="product-description">Crafted in premium Econyl Sleek Satin with Matte Ribbed Knit accents. This one-piece epitomizes anti-fashion statement luxury. Featuring color-blocking in Obsidian Black and Burnt Terracotta. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Burnt Terracotta</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Top</span>
+                    <img src="https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+2B99E670" alt="Architecture-Cut Obsidian Black Bikini Top">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Top</div>
+                    <div class="product-name">Architecture-Cut Obsidian Black Bikini Top</div>
+                    <div class="product-name-cn">Obsidian Black 纹理感高端泳装上衣</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_AU_BT_0509</div>
+                    
+                    <div class="product-description">A statement piece in Econyl Sleek Satin. This bikini top combines minimalist luxury design with impeccable craftsmanship. Available in Obsidian Black with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Obsidian Black</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="product">
+                <div class="product-image">
+                    <span class="product-badge">Bikini Bottom</span>
+                    <img src="https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+C71483F2" alt="Chalk White Minimalist Crinkled Seersucker Bikini Bottom">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-category">Bikini Bottom</div>
+                    <div class="product-name">Chalk White Minimalist Crinkled Seersucker Bikini Bottom</div>
+                    <div class="product-name-cn">Chalk White 极简主义比基尼下装</div>
+                    
+                    <div class="product-price">$168.0</div>
+                    <div class="product-sku">TWESSIE_JP_BB_0510</div>
+                    
+                    <div class="product-description">Crafted in premium Crinkled Seersucker with Matte Ribbed Knit accents. This bikini bottom epitomizes architectural elegance luxury. Featuring color-blocking in Chalk White and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.</div>
+                    
+                    <div class="options-section">
+                        <div class="option-group">
+                            <label class="option-label">Color</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">Chalk White</button><button class="option-btn" onclick="this.classList.toggle('active')">Stone Gray</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label class="option-label">Size</label>
+                            <div class="option-values">
+                                <button class="option-btn" onclick="this.classList.toggle('active')">XS</button><button class="option-btn" onclick="this.classList.toggle('active')">S</button><button class="option-btn" onclick="this.classList.toggle('active')">M</button><button class="option-btn" onclick="this.classList.toggle('active')">L</button><button class="option-btn" onclick="this.classList.toggle('active')">XL</button><button class="option-btn" onclick="this.classList.toggle('active')">XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2026 Twessie. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        document.querySelectorAll('.option-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                this.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
