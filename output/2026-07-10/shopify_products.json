@@ -1,0 +1,2420 @@
+{
+  "batch_date": "2026-07-10",
+  "total_products": 50,
+  "products": [
+    {
+      "id": "TWESSIE_1_1",
+      "sku": "TWESSIE_AU_BB_0101",
+      "title_en": "Structural Crinkled Seersucker Bikini Bottom",
+      "title_cn": "Chalk White 极简主义比基尼下装",
+      "description_en": "Crinkled Seersucker construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Chalk White colorway with Stone Gray accents creates a sophisticated palette. Pure rebellious yet refined elegance.",
+      "description_cn": "微褶皱高弹肌理打造的标志性款式。这款Bikini Bottom结合了建筑风格的设计和无可挑剔的工艺。Chalk White配以Stone Gray细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini bottom in Chalk White with Stone Gray accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Tokyo minimalist gallery, cool fluorescent clinical light. Macro texture details showcasing premium fabric. Style: rebellious yet refined, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "high-end swimwear, Crinkled Seersucker bikini, minimalist bikini bottom, architectural swimsuit, independent fashion",
+      "group_id": "group_001",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+3449407D"
+    },
+    {
+      "id": "TWESSIE_1_2",
+      "sku": "TWESSIE_EU_BT_0102",
+      "title_en": "Architecture-Cut Olive Drab Bikini Top",
+      "title_cn": "Olive Drab 纹理感高端泳装上衣",
+      "description_en": "Matte Ribbed Knit construction meets architectural precision in this bikini top. Designed for the intelligent, independent woman. The Olive Drab colorway with Burnt Terracotta accents creates a sophisticated palette. Pure rebellious yet refined elegance.",
+      "description_cn": "采用哑光复古法式针织和微褶皱高弹肌理精心打造。这款Bikini Top体现了极简主义奢侈品的精髓。Olive Drab和Burnt Terracotta的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Olive Drab",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit bikini top in Olive Drab with Burnt Terracotta accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Scandinavian forest clearing, dappled natural light through trees. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "architectural swimsuit, high-end swimwear, minimalist bikini top, minimalist luxury, independent fashion",
+      "group_id": "group_001",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+2989E62A"
+    },
+    {
+      "id": "TWESSIE_1_3",
+      "sku": "TWESSIE_AU_BB_0103",
+      "title_en": "Olive Drab Minimalist Matte Ribbed Knit Bikini Bottom",
+      "title_cn": "Olive Drab 极简主义比基尼下装",
+      "description_en": "A statement piece in Matte Ribbed Knit. This bikini bottom combines architectural elegance design with impeccable craftsmanship. Available in Olive Drab with Burnt Terracotta detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "哑光复古法式针织打造的标志性款式。这款Bikini Bottom结合了建筑风格的设计和无可挑剔的工艺。Olive Drab配以Burnt Terracotta细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Olive Drab",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit bikini bottom in Olive Drab with Burnt Terracotta accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Scandinavian forest clearing, dappled natural light through trees. Macro texture details showcasing premium fabric. Style: architectural elegance, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "architectural swimsuit, Matte Ribbed Knit bikini, minimalist luxury, minimalist bikini bottom, high-end swimwear",
+      "group_id": "group_001",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+1311EABE"
+    },
+    {
+      "id": "TWESSIE_1_4",
+      "sku": "TWESSIE_EU_OP_0104",
+      "title_en": "High-Fashion Stone Gray One-Piece Suit",
+      "title_cn": "Stone Gray 高端一片式泳衣",
+      "description_en": "Crinkled Seersucker construction meets architectural precision in this one-piece. Designed for the intelligent, independent woman. The Stone Gray colorway with Chalk White accents creates a sophisticated palette. Pure architectural elegance elegance.",
+      "description_cn": "采用微褶皱高弹肌理和可持续再生尼龙哑光缎面精心打造。这款One-Piece体现了极简主义奢侈品的精髓。Stone Gray和Chalk White的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "One-Piece",
+      "base_price": 168.0,
+      "colors": [
+        "Stone Gray",
+        "Chalk White"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker one-piece in Stone Gray with Chalk White accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "architectural swimsuit, minimalist luxury, Crinkled Seersucker bikini, high-end swimwear, luxury Stone Gray swimwear",
+      "group_id": "group_001",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+E37D37E5"
+    },
+    {
+      "id": "TWESSIE_1_5",
+      "sku": "TWESSIE_AU_BT_0105",
+      "title_en": "Econyl Sleek Satin High-Waist Bikini Top in Obsidian Black",
+      "title_cn": "建筑风格 Obsidian Black 比基尼上装",
+      "description_en": "A statement piece in Econyl Sleek Satin. This bikini top combines minimalist luxury design with impeccable craftsmanship. Available in Obsidian Black with Burnt Terracotta detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Burnt Terracotta细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini top in Obsidian Black with Burnt Terracotta accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: Nordic minimalist studio, concrete backdrop, natural overcast light. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist luxury, luxury Obsidian Black swimwear, independent fashion, minimalist bikini top, architectural swimsuit",
+      "group_id": "group_001",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+544110F4"
+    },
+    {
+      "id": "TWESSIE_1_6",
+      "sku": "TWESSIE_JP_BB_0106",
+      "title_en": "High-Cut Obsidian Black Bikini Brief",
+      "title_cn": "雕塑感 Obsidian Black 比基尼下装",
+      "description_en": "A statement piece in Econyl Sleek Satin. This bikini bottom combines minimalist luxury design with impeccable craftsmanship. Available in Obsidian Black with Olive Drab detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款Bikini Bottom结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Olive Drab细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Olive Drab"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini bottom in Obsidian Black with Olive Drab accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "Econyl Sleek Satin bikini, architectural swimsuit, high-end swimwear, luxury Obsidian Black swimwear, minimalist bikini bottom",
+      "group_id": "group_001",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+F69CA126"
+    },
+    {
+      "id": "TWESSIE_1_7",
+      "sku": "TWESSIE_EU_BB_0107",
+      "title_en": "High-Cut Obsidian Black Bikini Brief",
+      "title_cn": "Obsidian Black 高腰裁剪比基尼",
+      "description_en": "A statement piece in Econyl Sleek Satin. This bikini bottom combines architectural elegance design with impeccable craftsmanship. Available in Obsidian Black with Burnt Terracotta detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款Bikini Bottom结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Burnt Terracotta细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini bottom in Obsidian Black with Burnt Terracotta accents. Model: high-fashion model with architectural bone structure. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "high-end swimwear, minimalist bikini bottom, architectural swimsuit, minimalist luxury, Econyl Sleek Satin bikini",
+      "group_id": "group_001",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+56C776D0"
+    },
+    {
+      "id": "TWESSIE_1_8",
+      "sku": "TWESSIE_AU_HA_0108",
+      "title_en": "Sculptural Halter Accessory - Obsidian Black",
+      "title_cn": "Obsidian Black 极简主义比基尼带",
+      "description_en": "A statement piece in Econyl Sleek Satin. This halter strap accessory combines minimalist luxury design with impeccable craftsmanship. Available in Obsidian Black with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "采用可持续再生尼龙哑光缎面和微褶皱高弹肌理精心打造。这款Halter Strap Accessory体现了极简主义奢侈品的精髓。Obsidian Black和Stone Gray的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Halter Strap Accessory",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin halter strap accessory in Obsidian Black with Stone Gray accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: Tokyo minimalist gallery, cool fluorescent clinical light. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist halter strap accessory, luxury Obsidian Black swimwear, architectural swimsuit, high-end swimwear, Econyl Sleek Satin bikini",
+      "group_id": "group_001",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/6a7a8a/ffffff?text=TWESSIE+22E99BF5"
+    },
+    {
+      "id": "TWESSIE_1_9",
+      "sku": "TWESSIE_SG_BT_0109",
+      "title_en": "Econyl Sleek Satin High-Waist Bikini Top in Obsidian Black",
+      "title_cn": "Obsidian Black 纹理感高端泳装上衣",
+      "description_en": "A statement piece in Econyl Sleek Satin. This bikini top combines anti-fashion statement design with impeccable craftsmanship. Available in Obsidian Black with Chalk White detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Chalk White细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Chalk White"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini top in Obsidian Black with Chalk White accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "architectural swimsuit, minimalist luxury, independent fashion, luxury Obsidian Black swimwear, Econyl Sleek Satin bikini",
+      "group_id": "group_001",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+526785D8"
+    },
+    {
+      "id": "TWESSIE_1_10",
+      "sku": "TWESSIE_JP_HA_0110",
+      "title_en": "Minimalist Halter Extension - Burnt Terracotta",
+      "title_cn": "Burnt Terracotta 建筑风格泳装配件",
+      "description_en": "Crafted in premium Matte Ribbed Knit with Econyl Sleek Satin accents. This halter strap accessory epitomizes anti-fashion statement luxury. Featuring color-blocking in Burnt Terracotta and Olive Drab. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "哑光复古法式针织打造的标志性款式。这款Halter Strap Accessory结合了建筑风格的设计和无可挑剔的工艺。Burnt Terracotta配以Olive Drab细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Halter Strap Accessory",
+      "base_price": 168.0,
+      "colors": [
+        "Burnt Terracotta",
+        "Olive Drab"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit halter strap accessory in Burnt Terracotta with Olive Drab accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: Nordic minimalist studio, concrete backdrop, natural overcast light. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist luxury, architectural swimsuit, independent fashion, luxury Burnt Terracotta swimwear, high-end swimwear",
+      "group_id": "group_001",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/6a7a8a/ffffff?text=TWESSIE+3C6726CD"
+    },
+    {
+      "id": "TWESSIE_2_1",
+      "sku": "TWESSIE_SG_BB_0201",
+      "title_en": "High-Cut Obsidian Black Bikini Brief",
+      "title_cn": "Obsidian Black 极简主义比基尼下装",
+      "description_en": "Econyl Sleek Satin construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Obsidian Black colorway with Burnt Terracotta accents creates a sophisticated palette. Pure anti-fashion statement elegance.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款Bikini Bottom结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Burnt Terracotta细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini bottom in Obsidian Black with Burnt Terracotta accents. Model: high-fashion model with architectural bone structure. Setting: Berlin underground carpark, raw brutalist architecture. Macro texture details showcasing premium fabric. Style: architectural elegance, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "independent fashion, Econyl Sleek Satin bikini, minimalist bikini bottom, high-end swimwear, architectural swimsuit",
+      "group_id": "group_002",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+4E888592"
+    },
+    {
+      "id": "TWESSIE_2_2",
+      "sku": "TWESSIE_EU_BB_0202",
+      "title_en": "Structural Crinkled Seersucker Bikini Bottom",
+      "title_cn": "雕塑感 Chalk White 比基尼下装",
+      "description_en": "Crinkled Seersucker construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Chalk White colorway with Stone Gray accents creates a sophisticated palette. Pure architectural elegance elegance.",
+      "description_cn": "采用微褶皱高弹肌理和可持续再生尼龙哑光缎面精心打造。这款Bikini Bottom体现了极简主义奢侈品的精髓。Chalk White和Stone Gray的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini bottom in Chalk White with Stone Gray accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: Berlin underground carpark, raw brutalist architecture. Macro texture details showcasing premium fabric. Style: architectural elegance, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist luxury, high-end swimwear, minimalist bikini bottom, Crinkled Seersucker bikini, architectural swimsuit",
+      "group_id": "group_002",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+D0C4F0BD"
+    },
+    {
+      "id": "TWESSIE_2_3",
+      "sku": "TWESSIE_NA_BT_0203",
+      "title_en": "Econyl Sleek Satin High-Waist Bikini Top in Obsidian Black",
+      "title_cn": "Obsidian Black 极简主义雕塑感比基尼上装",
+      "description_en": "Econyl Sleek Satin construction meets architectural precision in this bikini top. Designed for the intelligent, independent woman. The Obsidian Black colorway with Burnt Terracotta accents creates a sophisticated palette. Pure rebellious yet refined elegance.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Burnt Terracotta细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini top in Obsidian Black with Burnt Terracotta accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Nordic minimalist studio, concrete backdrop, natural overcast light. Macro texture details showcasing premium fabric. Style: intelligent aesthetic, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist luxury, minimalist bikini top, independent fashion, Econyl Sleek Satin bikini, architectural swimsuit",
+      "group_id": "group_002",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+BD18D3F3"
+    },
+    {
+      "id": "TWESSIE_2_4",
+      "sku": "TWESSIE_AU_BT_0204",
+      "title_en": "Stone Gray Sculptural Crinkled Seersucker Bikini Top",
+      "title_cn": "Stone Gray 纹理感高端泳装上衣",
+      "description_en": "Crafted in premium Crinkled Seersucker with Matte Ribbed Knit accents. This bikini top epitomizes architectural elegance luxury. Featuring color-blocking in Stone Gray and Chalk White. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "采用微褶皱高弹肌理和哑光复古法式针织精心打造。这款Bikini Top体现了极简主义奢侈品的精髓。Stone Gray和Chalk White的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Stone Gray",
+        "Chalk White"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini top in Stone Gray with Chalk White accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Scandinavian forest clearing, dappled natural light through trees. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "Crinkled Seersucker bikini, minimalist luxury, architectural swimsuit, independent fashion, luxury Stone Gray swimwear",
+      "group_id": "group_002",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+6BFC40BB"
+    },
+    {
+      "id": "TWESSIE_2_5",
+      "sku": "TWESSIE_SG_BT_0205",
+      "title_en": "Stone Gray Sculptural Crinkled Seersucker Bikini Top",
+      "title_cn": "建筑风格 Stone Gray 比基尼上装",
+      "description_en": "A statement piece in Crinkled Seersucker. This bikini top combines intelligent aesthetic design with impeccable craftsmanship. Available in Stone Gray with Chalk White detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "采用微褶皱高弹肌理和可持续再生尼龙哑光缎面精心打造。这款Bikini Top体现了极简主义奢侈品的精髓。Stone Gray和Chalk White的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Stone Gray",
+        "Chalk White"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini top in Stone Gray with Chalk White accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: Berlin underground carpark, raw brutalist architecture. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "independent fashion, minimalist luxury, minimalist bikini top, Crinkled Seersucker bikini, high-end swimwear",
+      "group_id": "group_002",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+A7D8A160"
+    },
+    {
+      "id": "TWESSIE_2_6",
+      "sku": "TWESSIE_SG_BT_0206",
+      "title_en": "Obsidian Black Sculptural Econyl Sleek Satin Bikini Top",
+      "title_cn": "Obsidian Black 纹理感高端泳装上衣",
+      "description_en": "Crafted in premium Econyl Sleek Satin with Matte Ribbed Knit accents. This bikini top epitomizes intelligent aesthetic luxury. Featuring color-blocking in Obsidian Black and Burnt Terracotta. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Burnt Terracotta细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini top in Obsidian Black with Burnt Terracotta accents. Model: high-fashion model with architectural bone structure. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: intelligent aesthetic, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist bikini top, high-end swimwear, independent fashion, Econyl Sleek Satin bikini, luxury Obsidian Black swimwear",
+      "group_id": "group_002",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+6DDCE858"
+    },
+    {
+      "id": "TWESSIE_2_7",
+      "sku": "TWESSIE_EU_BT_0207",
+      "title_en": "Architecture-Cut Obsidian Black Bikini Top",
+      "title_cn": "Obsidian Black 极简主义雕塑感比基尼上装",
+      "description_en": "Crafted in premium Econyl Sleek Satin with Matte Ribbed Knit accents. This bikini top epitomizes anti-fashion statement luxury. Featuring color-blocking in Obsidian Black and Olive Drab. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Olive Drab细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Olive Drab"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini top in Obsidian Black with Olive Drab accents. Model: high-fashion model with architectural bone structure. Setting: Scandinavian forest clearing, dappled natural light through trees. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "independent fashion, architectural swimsuit, minimalist luxury, Econyl Sleek Satin bikini, high-end swimwear",
+      "group_id": "group_002",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+A2031076"
+    },
+    {
+      "id": "TWESSIE_2_8",
+      "sku": "TWESSIE_NA_BT_0208",
+      "title_en": "Minimalist Obsidian Black Textured Bikini Top",
+      "title_cn": "Obsidian Black 极简主义雕塑感比基尼上装",
+      "description_en": "Econyl Sleek Satin construction meets architectural precision in this bikini top. Designed for the intelligent, independent woman. The Obsidian Black colorway with Burnt Terracotta accents creates a sophisticated palette. Pure intelligent aesthetic elegance.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Burnt Terracotta细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini top in Obsidian Black with Burnt Terracotta accents. Model: high-fashion model with architectural bone structure. Setting: Tokyo minimalist gallery, cool fluorescent clinical light. Macro texture details showcasing premium fabric. Style: rebellious yet refined, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "architectural swimsuit, minimalist bikini top, luxury Obsidian Black swimwear, high-end swimwear, independent fashion",
+      "group_id": "group_002",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+B5864593"
+    },
+    {
+      "id": "TWESSIE_2_9",
+      "sku": "TWESSIE_EU_BT_0209",
+      "title_en": "Olive Drab Sculptural Matte Ribbed Knit Bikini Top",
+      "title_cn": "建筑风格 Olive Drab 比基尼上装",
+      "description_en": "Crafted in premium Matte Ribbed Knit with Econyl Sleek Satin accents. This bikini top epitomizes anti-fashion statement luxury. Featuring color-blocking in Olive Drab and Burnt Terracotta. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "采用哑光复古法式针织和可持续再生尼龙哑光缎面精心打造。这款Bikini Top体现了极简主义奢侈品的精髓。Olive Drab和Burnt Terracotta的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Olive Drab",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit bikini top in Olive Drab with Burnt Terracotta accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: Nordic minimalist studio, concrete backdrop, natural overcast light. Macro texture details showcasing premium fabric. Style: rebellious yet refined, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "high-end swimwear, minimalist bikini top, luxury Olive Drab swimwear, minimalist luxury, Matte Ribbed Knit bikini",
+      "group_id": "group_002",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+3B0B52C9"
+    },
+    {
+      "id": "TWESSIE_2_10",
+      "sku": "TWESSIE_AU_BB_0210",
+      "title_en": "High-Cut Chalk White Bikini Brief",
+      "title_cn": "雕塑感 Chalk White 比基尼下装",
+      "description_en": "Crafted in premium Crinkled Seersucker with Matte Ribbed Knit accents. This bikini bottom epitomizes minimalist luxury luxury. Featuring color-blocking in Chalk White and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "微褶皱高弹肌理打造的标志性款式。这款Bikini Bottom结合了建筑风格的设计和无可挑剔的工艺。Chalk White配以Stone Gray细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini bottom in Chalk White with Stone Gray accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: rebellious yet refined, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist bikini bottom, architectural swimsuit, Crinkled Seersucker bikini, minimalist luxury, independent fashion",
+      "group_id": "group_002",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+DA7D5F8F"
+    },
+    {
+      "id": "TWESSIE_3_1",
+      "sku": "TWESSIE_EU_BT_0301",
+      "title_en": "Minimalist Chalk White Textured Bikini Top",
+      "title_cn": "Chalk White 极简主义雕塑感比基尼上装",
+      "description_en": "A statement piece in Crinkled Seersucker. This bikini top combines architectural elegance design with impeccable craftsmanship. Available in Chalk White with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "微褶皱高弹肌理打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Chalk White配以Stone Gray细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini top in Chalk White with Stone Gray accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: Scandinavian forest clearing, dappled natural light through trees. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist bikini top, independent fashion, architectural swimsuit, minimalist luxury, high-end swimwear",
+      "group_id": "group_003",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+0AF4D886"
+    },
+    {
+      "id": "TWESSIE_3_2",
+      "sku": "TWESSIE_AU_OP_0302",
+      "title_en": "Minimalist Crinkled Seersucker One-Piece",
+      "title_cn": "Stone Gray 极简主义连体泳装",
+      "description_en": "A statement piece in Crinkled Seersucker. This one-piece combines architectural elegance design with impeccable craftsmanship. Available in Stone Gray with Chalk White detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "采用微褶皱高弹肌理和可持续再生尼龙哑光缎面精心打造。这款One-Piece体现了极简主义奢侈品的精髓。Stone Gray和Chalk White的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "One-Piece",
+      "base_price": 168.0,
+      "colors": [
+        "Stone Gray",
+        "Chalk White"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker one-piece in Stone Gray with Chalk White accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: rebellious yet refined, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "architectural swimsuit, minimalist one-piece, independent fashion, Crinkled Seersucker bikini, high-end swimwear",
+      "group_id": "group_003",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+10084620"
+    },
+    {
+      "id": "TWESSIE_3_3",
+      "sku": "TWESSIE_JP_OP_0303",
+      "title_en": "High-Fashion Obsidian Black One-Piece Suit",
+      "title_cn": "Obsidian Black 高端一片式泳衣",
+      "description_en": "A statement piece in Econyl Sleek Satin. This one-piece combines intelligent aesthetic design with impeccable craftsmanship. Available in Obsidian Black with Burnt Terracotta detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款One-Piece结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Burnt Terracotta细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "One-Piece",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin one-piece in Obsidian Black with Burnt Terracotta accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "luxury Obsidian Black swimwear, high-end swimwear, minimalist luxury, Econyl Sleek Satin bikini, independent fashion",
+      "group_id": "group_003",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+84A883A3"
+    },
+    {
+      "id": "TWESSIE_3_4",
+      "sku": "TWESSIE_SG_BT_0304",
+      "title_en": "Matte Ribbed Knit High-Waist Bikini Top in Burnt Terracotta",
+      "title_cn": "建筑风格 Burnt Terracotta 比基尼上装",
+      "description_en": "Matte Ribbed Knit construction meets architectural precision in this bikini top. Designed for the intelligent, independent woman. The Burnt Terracotta colorway with Olive Drab accents creates a sophisticated palette. Pure anti-fashion statement elegance.",
+      "description_cn": "哑光复古法式针织打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Burnt Terracotta配以Olive Drab细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Burnt Terracotta",
+        "Olive Drab"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit bikini top in Burnt Terracotta with Olive Drab accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Tokyo minimalist gallery, cool fluorescent clinical light. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist luxury, Matte Ribbed Knit bikini, independent fashion, minimalist bikini top, luxury Burnt Terracotta swimwear",
+      "group_id": "group_003",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+455E3470"
+    },
+    {
+      "id": "TWESSIE_3_5",
+      "sku": "TWESSIE_NA_BB_0305",
+      "title_en": "Raw-Edge Burnt Terracotta Bikini Bottom",
+      "title_cn": "Burnt Terracotta 高腰裁剪比基尼",
+      "description_en": "Matte Ribbed Knit construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Burnt Terracotta colorway with Olive Drab accents creates a sophisticated palette. Pure architectural elegance elegance.",
+      "description_cn": "采用哑光复古法式针织和微褶皱高弹肌理精心打造。这款Bikini Bottom体现了极简主义奢侈品的精髓。Burnt Terracotta和Olive Drab的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Burnt Terracotta",
+        "Olive Drab"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit bikini bottom in Burnt Terracotta with Olive Drab accents. Model: high-fashion model with architectural bone structure. Setting: Berlin underground carpark, raw brutalist architecture. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist luxury, architectural swimsuit, Matte Ribbed Knit bikini, high-end swimwear, luxury Burnt Terracotta swimwear",
+      "group_id": "group_003",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+9AC99EE4"
+    },
+    {
+      "id": "TWESSIE_3_6",
+      "sku": "TWESSIE_AU_BB_0306",
+      "title_en": "High-Cut Chalk White Bikini Brief",
+      "title_cn": "雕塑感 Chalk White 比基尼下装",
+      "description_en": "Crinkled Seersucker construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Chalk White colorway with Stone Gray accents creates a sophisticated palette. Pure rebellious yet refined elegance.",
+      "description_cn": "采用微褶皱高弹肌理和可持续再生尼龙哑光缎面精心打造。这款Bikini Bottom体现了极简主义奢侈品的精髓。Chalk White和Stone Gray的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini bottom in Chalk White with Stone Gray accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: Tokyo minimalist gallery, cool fluorescent clinical light. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist luxury, independent fashion, Crinkled Seersucker bikini, minimalist bikini bottom, high-end swimwear",
+      "group_id": "group_003",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+C839FF68"
+    },
+    {
+      "id": "TWESSIE_3_7",
+      "sku": "TWESSIE_NA_OP_0307",
+      "title_en": "Obsidian Black Architectural One-Piece Swimsuit",
+      "title_cn": "Obsidian Black 高端一片式泳衣",
+      "description_en": "Econyl Sleek Satin construction meets architectural precision in this one-piece. Designed for the intelligent, independent woman. The Obsidian Black colorway with Burnt Terracotta accents creates a sophisticated palette. Pure intelligent aesthetic elegance.",
+      "description_cn": "可持续再生尼龙哑光缎面打造的标志性款式。这款One-Piece结合了建筑风格的设计和无可挑剔的工艺。Obsidian Black配以Burnt Terracotta细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "One-Piece",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin one-piece in Obsidian Black with Burnt Terracotta accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: Scandinavian forest clearing, dappled natural light through trees. Macro texture details showcasing premium fabric. Style: intelligent aesthetic, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist luxury, luxury Obsidian Black swimwear, independent fashion, minimalist one-piece, Econyl Sleek Satin bikini",
+      "group_id": "group_003",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+0CE929C9"
+    },
+    {
+      "id": "TWESSIE_3_8",
+      "sku": "TWESSIE_NA_BT_0308",
+      "title_en": "Matte Ribbed Knit High-Waist Bikini Top in Burnt Terracotta",
+      "title_cn": "Burnt Terracotta 纹理感高端泳装上衣",
+      "description_en": "Crafted in premium Matte Ribbed Knit with Crinkled Seersucker accents. This bikini top epitomizes architectural elegance luxury. Featuring color-blocking in Burnt Terracotta and Olive Drab. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "哑光复古法式针织打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Burnt Terracotta配以Olive Drab细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Burnt Terracotta",
+        "Olive Drab"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit bikini top in Burnt Terracotta with Olive Drab accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: Nordic minimalist studio, concrete backdrop, natural overcast light. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "independent fashion, luxury Burnt Terracotta swimwear, high-end swimwear, minimalist bikini top, Matte Ribbed Knit bikini",
+      "group_id": "group_003",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+8C75FB4A"
+    },
+    {
+      "id": "TWESSIE_3_9",
+      "sku": "TWESSIE_NA_BT_0309",
+      "title_en": "Architecture-Cut Chalk White Bikini Top",
+      "title_cn": "建筑风格 Chalk White 比基尼上装",
+      "description_en": "Crafted in premium Crinkled Seersucker with Econyl Sleek Satin accents. This bikini top epitomizes rebellious yet refined luxury. Featuring color-blocking in Chalk White and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "微褶皱高弹肌理打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Chalk White配以Stone Gray细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini top in Chalk White with Stone Gray accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: intelligent aesthetic, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "Crinkled Seersucker bikini, minimalist luxury, independent fashion, minimalist bikini top, high-end swimwear",
+      "group_id": "group_003",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+4BEAB5FE"
+    },
+    {
+      "id": "TWESSIE_3_10",
+      "sku": "TWESSIE_JP_OP_0310",
+      "title_en": "Chalk White Architectural One-Piece Swimsuit",
+      "title_cn": "Chalk White 极简主义连体泳装",
+      "description_en": "Crafted in premium Crinkled Seersucker with Matte Ribbed Knit accents. This one-piece epitomizes minimalist luxury luxury. Featuring color-blocking in Chalk White and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "采用微褶皱高弹肌理和哑光复古法式针织精心打造。这款One-Piece体现了极简主义奢侈品的精髓。Chalk White和Stone Gray的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "One-Piece",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker one-piece in Chalk White with Stone Gray accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Berlin underground carpark, raw brutalist architecture. Macro texture details showcasing premium fabric. Style: architectural elegance, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "architectural swimsuit, Crinkled Seersucker bikini, independent fashion, minimalist one-piece, luxury Chalk White swimwear",
+      "group_id": "group_003",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+A4EF1211"
+    },
+    {
+      "id": "TWESSIE_4_1",
+      "sku": "TWESSIE_JP_BB_0401",
+      "title_en": "Obsidian Black Minimalist Econyl Sleek Satin Bikini Bottom",
+      "title_cn": "雕塑感 Obsidian Black 比基尼下装",
+      "description_en": "Econyl Sleek Satin construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Obsidian Black colorway with Olive Drab accents creates a sophisticated palette. Pure intelligent aesthetic elegance.",
+      "description_cn": "采用可持续再生尼龙哑光缎面和哑光复古法式针织精心打造。这款Bikini Bottom体现了极简主义奢侈品的精髓。Obsidian Black和Olive Drab的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Olive Drab"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini bottom in Obsidian Black with Olive Drab accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: Tokyo minimalist gallery, cool fluorescent clinical light. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist luxury, luxury Obsidian Black swimwear, high-end swimwear, Econyl Sleek Satin bikini, minimalist bikini bottom",
+      "group_id": "group_004",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+92F74AB3"
+    },
+    {
+      "id": "TWESSIE_4_2",
+      "sku": "TWESSIE_EU_BT_0402",
+      "title_en": "Obsidian Black Sculptural Econyl Sleek Satin Bikini Top",
+      "title_cn": "建筑风格 Obsidian Black 比基尼上装",
+      "description_en": "Econyl Sleek Satin construction meets architectural precision in this bikini top. Designed for the intelligent, independent woman. The Obsidian Black colorway with Burnt Terracotta accents creates a sophisticated palette. Pure intelligent aesthetic elegance.",
+      "description_cn": "采用可持续再生尼龙哑光缎面和哑光复古法式针织精心打造。这款Bikini Top体现了极简主义奢侈品的精髓。Obsidian Black和Burnt Terracotta的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini top in Obsidian Black with Burnt Terracotta accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: intelligent aesthetic, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "architectural swimsuit, high-end swimwear, minimalist luxury, independent fashion, Econyl Sleek Satin bikini",
+      "group_id": "group_004",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+67F06540"
+    },
+    {
+      "id": "TWESSIE_4_3",
+      "sku": "TWESSIE_EU_BB_0403",
+      "title_en": "High-Cut Chalk White Bikini Brief",
+      "title_cn": "Chalk White 极简主义比基尼下装",
+      "description_en": "Crinkled Seersucker construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Chalk White colorway with Stone Gray accents creates a sophisticated palette. Pure minimalist luxury elegance.",
+      "description_cn": "微褶皱高弹肌理打造的标志性款式。这款Bikini Bottom结合了建筑风格的设计和无可挑剔的工艺。Chalk White配以Stone Gray细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini bottom in Chalk White with Stone Gray accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: architectural elegance, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "independent fashion, Crinkled Seersucker bikini, architectural swimsuit, minimalist luxury, minimalist bikini bottom",
+      "group_id": "group_004",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+8C98BAA9"
+    },
+    {
+      "id": "TWESSIE_4_4",
+      "sku": "TWESSIE_SG_BB_0404",
+      "title_en": "High-Cut Burnt Terracotta Bikini Brief",
+      "title_cn": "雕塑感 Burnt Terracotta 比基尼下装",
+      "description_en": "A statement piece in Matte Ribbed Knit. This bikini bottom combines architectural elegance design with impeccable craftsmanship. Available in Burnt Terracotta with Olive Drab detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "哑光复古法式针织打造的标志性款式。这款Bikini Bottom结合了建筑风格的设计和无可挑剔的工艺。Burnt Terracotta配以Olive Drab细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Burnt Terracotta",
+        "Olive Drab"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit bikini bottom in Burnt Terracotta with Olive Drab accents. Model: high-fashion model with architectural bone structure. Setting: Nordic minimalist studio, concrete backdrop, natural overcast light. Macro texture details showcasing premium fabric. Style: rebellious yet refined, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "Matte Ribbed Knit bikini, architectural swimsuit, independent fashion, minimalist bikini bottom, minimalist luxury",
+      "group_id": "group_004",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+DADA0207"
+    },
+    {
+      "id": "TWESSIE_4_5",
+      "sku": "TWESSIE_NA_BB_0405",
+      "title_en": "High-Cut Obsidian Black Bikini Brief",
+      "title_cn": "Obsidian Black 极简主义比基尼下装",
+      "description_en": "Crafted in premium Econyl Sleek Satin with Crinkled Seersucker accents. This bikini bottom epitomizes anti-fashion statement luxury. Featuring color-blocking in Obsidian Black and Chalk White. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "采用可持续再生尼龙哑光缎面和微褶皱高弹肌理精心打造。这款Bikini Bottom体现了极简主义奢侈品的精髓。Obsidian Black和Chalk White的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Chalk White"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini bottom in Obsidian Black with Chalk White accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: Berlin underground carpark, raw brutalist architecture. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "independent fashion, Econyl Sleek Satin bikini, architectural swimsuit, high-end swimwear, minimalist luxury",
+      "group_id": "group_004",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+21A52D41"
+    },
+    {
+      "id": "TWESSIE_4_6",
+      "sku": "TWESSIE_AU_BT_0406",
+      "title_en": "Matte Ribbed Knit High-Waist Bikini Top in Olive Drab",
+      "title_cn": "建筑风格 Olive Drab 比基尼上装",
+      "description_en": "A statement piece in Matte Ribbed Knit. This bikini top combines intelligent aesthetic design with impeccable craftsmanship. Available in Olive Drab with Burnt Terracotta detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "采用哑光复古法式针织和微褶皱高弹肌理精心打造。这款Bikini Top体现了极简主义奢侈品的精髓。Olive Drab和Burnt Terracotta的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Olive Drab",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit bikini top in Olive Drab with Burnt Terracotta accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Scandinavian forest clearing, dappled natural light through trees. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "independent fashion, architectural swimsuit, minimalist luxury, Matte Ribbed Knit bikini, luxury Olive Drab swimwear",
+      "group_id": "group_004",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+38961BA3"
+    },
+    {
+      "id": "TWESSIE_4_7",
+      "sku": "TWESSIE_SG_BB_0407",
+      "title_en": "Raw-Edge Obsidian Black Bikini Bottom",
+      "title_cn": "雕塑感 Obsidian Black 比基尼下装",
+      "description_en": "Crafted in premium Econyl Sleek Satin with Matte Ribbed Knit accents. This bikini bottom epitomizes architectural elegance luxury. Featuring color-blocking in Obsidian Black and Olive Drab. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "采用可持续再生尼龙哑光缎面和哑光复古法式针织精心打造。这款Bikini Bottom体现了极简主义奢侈品的精髓。Obsidian Black和Olive Drab的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Olive Drab"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini bottom in Obsidian Black with Olive Drab accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Tokyo minimalist gallery, cool fluorescent clinical light. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "luxury Obsidian Black swimwear, minimalist bikini bottom, architectural swimsuit, independent fashion, high-end swimwear",
+      "group_id": "group_004",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+B9A977D2"
+    },
+    {
+      "id": "TWESSIE_4_8",
+      "sku": "TWESSIE_SG_BB_0408",
+      "title_en": "High-Cut Obsidian Black Bikini Brief",
+      "title_cn": "Obsidian Black 高腰裁剪比基尼",
+      "description_en": "Crafted in premium Econyl Sleek Satin with Crinkled Seersucker accents. This bikini bottom epitomizes minimalist luxury luxury. Featuring color-blocking in Obsidian Black and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "采用可持续再生尼龙哑光缎面和微褶皱高弹肌理精心打造。这款Bikini Bottom体现了极简主义奢侈品的精髓。Obsidian Black和Stone Gray的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini bottom in Obsidian Black with Stone Gray accents. Model: high-fashion model with architectural bone structure. Setting: Nordic minimalist studio, concrete backdrop, natural overcast light. Macro texture details showcasing premium fabric. Style: intelligent aesthetic, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "high-end swimwear, minimalist bikini bottom, minimalist luxury, Econyl Sleek Satin bikini, independent fashion",
+      "group_id": "group_004",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+2A6ED6F3"
+    },
+    {
+      "id": "TWESSIE_4_9",
+      "sku": "TWESSIE_AU_BB_0409",
+      "title_en": "High-Cut Chalk White Bikini Brief",
+      "title_cn": "Chalk White 极简主义比基尼下装",
+      "description_en": "Crinkled Seersucker construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Chalk White colorway with Stone Gray accents creates a sophisticated palette. Pure architectural elegance elegance.",
+      "description_cn": "微褶皱高弹肌理打造的标志性款式。这款Bikini Bottom结合了建筑风格的设计和无可挑剔的工艺。Chalk White配以Stone Gray细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini bottom in Chalk White with Stone Gray accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "Crinkled Seersucker bikini, high-end swimwear, architectural swimsuit, minimalist luxury, minimalist bikini bottom",
+      "group_id": "group_004",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+BAF46E63"
+    },
+    {
+      "id": "TWESSIE_4_10",
+      "sku": "TWESSIE_AU_OP_0410",
+      "title_en": "Minimalist Matte Ribbed Knit One-Piece",
+      "title_cn": "Olive Drab 建筑风格连体泳衣",
+      "description_en": "Crafted in premium Matte Ribbed Knit with Econyl Sleek Satin accents. This one-piece epitomizes minimalist luxury luxury. Featuring color-blocking in Olive Drab and Burnt Terracotta. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "采用哑光复古法式针织和可持续再生尼龙哑光缎面精心打造。这款One-Piece体现了极简主义奢侈品的精髓。Olive Drab和Burnt Terracotta的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "One-Piece",
+      "base_price": 168.0,
+      "colors": [
+        "Olive Drab",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit one-piece in Olive Drab with Burnt Terracotta accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: rebellious yet refined, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "independent fashion, minimalist one-piece, high-end swimwear, Matte Ribbed Knit bikini, minimalist luxury",
+      "group_id": "group_004",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+F114467C"
+    },
+    {
+      "id": "TWESSIE_5_1",
+      "sku": "TWESSIE_SG_OP_0501",
+      "title_en": "Minimalist Matte Ribbed Knit One-Piece",
+      "title_cn": "Burnt Terracotta 极简主义连体泳装",
+      "description_en": "Matte Ribbed Knit construction meets architectural precision in this one-piece. Designed for the intelligent, independent woman. The Burnt Terracotta colorway with Olive Drab accents creates a sophisticated palette. Pure architectural elegance elegance.",
+      "description_cn": "采用哑光复古法式针织和可持续再生尼龙哑光缎面精心打造。这款One-Piece体现了极简主义奢侈品的精髓。Burnt Terracotta和Olive Drab的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "One-Piece",
+      "base_price": 168.0,
+      "colors": [
+        "Burnt Terracotta",
+        "Olive Drab"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit one-piece in Burnt Terracotta with Olive Drab accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Scandinavian forest clearing, dappled natural light through trees. Macro texture details showcasing premium fabric. Style: intelligent aesthetic, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "architectural swimsuit, independent fashion, minimalist one-piece, minimalist luxury, luxury Burnt Terracotta swimwear",
+      "group_id": "group_005",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+2C63D914"
+    },
+    {
+      "id": "TWESSIE_5_2",
+      "sku": "TWESSIE_SG_OP_0502",
+      "title_en": "Sculptural Obsidian Black Monokini",
+      "title_cn": "Obsidian Black 建筑风格连体泳衣",
+      "description_en": "Crafted in premium Econyl Sleek Satin with Crinkled Seersucker accents. This one-piece epitomizes architectural elegance luxury. Featuring color-blocking in Obsidian Black and Stone Gray. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "采用可持续再生尼龙哑光缎面和微褶皱高弹肌理精心打造。这款One-Piece体现了极简主义奢侈品的精髓。Obsidian Black和Stone Gray的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "One-Piece",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin one-piece in Obsidian Black with Stone Gray accents. Model: fashion-forward woman, independent spirit, sculptural features. Setting: Nordic minimalist studio, concrete backdrop, natural overcast light. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "high-end swimwear, minimalist one-piece, Econyl Sleek Satin bikini, architectural swimsuit, independent fashion",
+      "group_id": "group_005",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/5a6a7a/ffffff?text=TWESSIE+D4058792"
+    },
+    {
+      "id": "TWESSIE_5_3",
+      "sku": "TWESSIE_EU_BT_0503",
+      "title_en": "Minimalist Chalk White Textured Bikini Top",
+      "title_cn": "Chalk White 纹理感高端泳装上衣",
+      "description_en": "A statement piece in Crinkled Seersucker. This bikini top combines intelligent aesthetic design with impeccable craftsmanship. Available in Chalk White with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "微褶皱高弹肌理打造的标志性款式。这款Bikini Top结合了建筑风格的设计和无可挑剔的工艺。Chalk White配以Stone Gray细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini top in Chalk White with Stone Gray accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: Berlin underground carpark, raw brutalist architecture. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "minimalist bikini top, luxury Chalk White swimwear, Crinkled Seersucker bikini, independent fashion, minimalist luxury",
+      "group_id": "group_005",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+92A58868"
+    },
+    {
+      "id": "TWESSIE_5_4",
+      "sku": "TWESSIE_EU_BT_0504",
+      "title_en": "Chalk White Sculptural Crinkled Seersucker Bikini Top",
+      "title_cn": "建筑风格 Chalk White 比基尼上装",
+      "description_en": "A statement piece in Crinkled Seersucker. This bikini top combines architectural elegance design with impeccable craftsmanship. Available in Chalk White with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "采用微褶皱高弹肌理和哑光复古法式针织精心打造。这款Bikini Top体现了极简主义奢侈品的精髓。Chalk White和Stone Gray的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini top in Chalk White with Stone Gray accents. Model: high-fashion model with architectural bone structure. Setting: Scandinavian forest clearing, dappled natural light through trees. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "Crinkled Seersucker bikini, independent fashion, high-end swimwear, architectural swimsuit, minimalist bikini top",
+      "group_id": "group_005",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+1DFBAD2E"
+    },
+    {
+      "id": "TWESSIE_5_5",
+      "sku": "TWESSIE_SG_BT_0505",
+      "title_en": "Crinkled Seersucker High-Waist Bikini Top in Chalk White",
+      "title_cn": "Chalk White 极简主义雕塑感比基尼上装",
+      "description_en": "A statement piece in Crinkled Seersucker. This bikini top combines rebellious yet refined design with impeccable craftsmanship. Available in Chalk White with Stone Gray detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "采用微褶皱高弹肌理和可持续再生尼龙哑光缎面精心打造。这款Bikini Top体现了极简主义奢侈品的精髓。Chalk White和Stone Gray的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini top in Chalk White with Stone Gray accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: South France riviera courtyard, golden hour, warm terracotta tones. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "independent fashion, architectural swimsuit, high-end swimwear, Crinkled Seersucker bikini, luxury Chalk White swimwear",
+      "group_id": "group_005",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+6D144893"
+    },
+    {
+      "id": "TWESSIE_5_6",
+      "sku": "TWESSIE_JP_BB_0506",
+      "title_en": "High-Cut Stone Gray Bikini Brief",
+      "title_cn": "Stone Gray 高腰裁剪比基尼",
+      "description_en": "A statement piece in Crinkled Seersucker. This bikini bottom combines architectural elegance design with impeccable craftsmanship. Available in Stone Gray with Chalk White detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "微褶皱高弹肌理打造的标志性款式。这款Bikini Bottom结合了建筑风格的设计和无可挑剔的工艺。Stone Gray配以Chalk White细节。不张扬。不明显。纯粹的Twessie风格。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Stone Gray",
+        "Chalk White"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini bottom in Stone Gray with Chalk White accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: Berlin underground carpark, raw brutalist architecture. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "luxury Stone Gray swimwear, minimalist bikini bottom, Crinkled Seersucker bikini, independent fashion, minimalist luxury",
+      "group_id": "group_005",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+E76D9500"
+    },
+    {
+      "id": "TWESSIE_5_7",
+      "sku": "TWESSIE_EU_BB_0507",
+      "title_en": "Raw-Edge Chalk White Bikini Bottom",
+      "title_cn": "Chalk White 高腰裁剪比基尼",
+      "description_en": "Crinkled Seersucker construction meets architectural precision in this bikini bottom. Designed for the intelligent, independent woman. The Chalk White colorway with Stone Gray accents creates a sophisticated palette. Pure intelligent aesthetic elegance.",
+      "description_cn": "采用微褶皱高弹肌理和可持续再生尼龙哑光缎面精心打造。这款Bikini Bottom体现了极简主义奢侈品的精髓。Chalk White和Stone Gray的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Chalk White",
+        "Stone Gray"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini bottom in Chalk White with Stone Gray accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: Nordic minimalist studio, concrete backdrop, natural overcast light. Macro texture details showcasing premium fabric. Style: intelligent aesthetic, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "Crinkled Seersucker bikini, luxury Chalk White swimwear, minimalist luxury, high-end swimwear, independent fashion",
+      "group_id": "group_005",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+33189770"
+    },
+    {
+      "id": "TWESSIE_5_8",
+      "sku": "TWESSIE_NA_BT_0508",
+      "title_en": "Minimalist Obsidian Black Textured Bikini Top",
+      "title_cn": "Obsidian Black 纹理感高端泳装上衣",
+      "description_en": "Crafted in premium Econyl Sleek Satin with Matte Ribbed Knit accents. This bikini top epitomizes intelligent aesthetic luxury. Featuring color-blocking in Obsidian Black and Burnt Terracotta. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "采用可持续再生尼龙哑光缎面和哑光复古法式针织精心打造。这款Bikini Top体现了极简主义奢侈品的精髓。Obsidian Black和Burnt Terracotta的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Top",
+      "base_price": 168.0,
+      "colors": [
+        "Obsidian Black",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Econyl Sleek Satin bikini top in Obsidian Black with Burnt Terracotta accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: Berlin underground carpark, raw brutalist architecture. Macro texture details showcasing premium fabric. Style: anti-fashion statement, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "high-end swimwear, independent fashion, luxury Obsidian Black swimwear, Econyl Sleek Satin bikini, minimalist bikini top",
+      "group_id": "group_005",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/3d4a5a/ffffff?text=TWESSIE+AEE65FA8"
+    },
+    {
+      "id": "TWESSIE_5_9",
+      "sku": "TWESSIE_AU_BB_0509",
+      "title_en": "Olive Drab Minimalist Matte Ribbed Knit Bikini Bottom",
+      "title_cn": "Olive Drab 高腰裁剪比基尼",
+      "description_en": "A statement piece in Matte Ribbed Knit. This bikini bottom combines anti-fashion statement design with impeccable craftsmanship. Available in Olive Drab with Burnt Terracotta detailing. Not loud. Not obvious. Unmistakably Twessie.",
+      "description_cn": "采用哑光复古法式针织和可持续再生尼龙哑光缎面精心打造。这款Bikini Bottom体现了极简主义奢侈品的精髓。Olive Drab和Burnt Terracotta的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Olive Drab",
+        "Burnt Terracotta"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_002",
+        "name_cn": "哑光复古法式针织",
+        "name_en": "Matte Ribbed Knit",
+        "description": "特制双面哑光微距紧密针织，自带独立杂志的高级厚实感与微距滤镜，拒绝反光廉价感",
+        "texture_quality": "matte, dense, magazine-grade",
+        "color_pairings": [
+          "Olive Drab",
+          "Burnt Terracotta"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Matte Ribbed Knit bikini bottom in Olive Drab with Burnt Terracotta accents. Model: rebellious Nordic model with intelligent gaze, sun-kissed skin. Setting: Nordic minimalist studio, concrete backdrop, natural overcast light. Macro texture details showcasing premium fabric. Style: intelligent aesthetic, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "Matte Ribbed Knit bikini, minimalist bikini bottom, independent fashion, luxury Olive Drab swimwear, architectural swimsuit",
+      "group_id": "group_005",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+D2B9DC5B"
+    },
+    {
+      "id": "TWESSIE_5_10",
+      "sku": "TWESSIE_AU_BB_0510",
+      "title_en": "Structural Crinkled Seersucker Bikini Bottom",
+      "title_cn": "Stone Gray 极简主义比基尼下装",
+      "description_en": "Crafted in premium Crinkled Seersucker with Econyl Sleek Satin accents. This bikini bottom epitomizes architectural elegance luxury. Featuring color-blocking in Stone Gray and Chalk White. Perfect for the discerning swimmer who refuses the obvious.",
+      "description_cn": "采用微褶皱高弹肌理和可持续再生尼龙哑光缎面精心打造。这款Bikini Bottom体现了极简主义奢侈品的精髓。Stone Gray和Chalk White的色彩搭配完美无缺。为那些拒绝平庸的女性而设计。",
+      "category": "Bikini Bottom",
+      "base_price": 168.0,
+      "colors": [
+        "Stone Gray",
+        "Chalk White"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "fabric_main": {
+        "id": "fabric_001",
+        "name_cn": "微褶皱高弹肌理",
+        "name_en": "Crinkled Seersucker",
+        "description": "采用立体微压褶皱工艺，具备极强的包容性与雕塑感，呈现不费力的松弛感",
+        "texture_quality": "micro-textured, sculptural",
+        "color_pairings": [
+          "Stone Gray",
+          "Chalk White"
+        ]
+      },
+      "fabric_secondary": {
+        "id": "fabric_003",
+        "name_cn": "可持续再生尼龙哑光缎面",
+        "name_en": "Econyl Sleek Satin",
+        "description": "细腻如第二层皮肤的环保哑光缎面丝滑面料，无走线隐形剪裁，体现极简锋芒",
+        "texture_quality": "second-skin smooth, invisible seams",
+        "color_pairings": [
+          "Obsidian Black"
+        ]
+      },
+      "midjourney_prompt": "Professional fashion editorial photography. Premium Crinkled Seersucker bikini bottom in Stone Gray with Chalk White accents. Model: refined editorial model, minimalist aesthetic, cool confidence. Setting: Berlin underground carpark, raw brutalist architecture. Macro texture details showcasing premium fabric. Style: minimalist luxury, high-end independent magazine, film grain, 8k quality. --ar 3:4 --q 2",
+      "seo_keywords": "high-end swimwear, architectural swimsuit, independent fashion, minimalist bikini bottom, Crinkled Seersucker bikini",
+      "group_id": "group_005",
+      "generated_at": "2026-07-10T11:47:59.107513Z",
+      "image_url": "https://via.placeholder.com/500x650/4a5a6a/ffffff?text=TWESSIE+C12F9CDD"
+    }
+  ]
+}
